@@ -1,0 +1,942 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class WebView
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class WebView
+   ">
+    <meta name="generator" content="docfx 2.40.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="VoxelBusters.EssentialKit.WebView">
+  
+  
+  <h1 id="VoxelBusters_EssentialKit_WebView" data-uid="VoxelBusters.EssentialKit.WebView" class="text-break">Class WebView
+  </h1>
+  <div class="markdown level0 summary"><p>Provides a cross-platform interface to display web contents inside your application.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">WebView</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="VoxelBusters.EssentialKit.html">VoxelBusters.EssentialKit</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="VoxelBusters_EssentialKit_WebView_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class WebView : NativeFeatureBehaviour</code></pre>
+  </div>
+  <h5 id="VoxelBusters_EssentialKit_WebView_examples"><strong>Examples</strong></h5>
+  <p>The following code illustrates how to load webpage using web view.</p>
+<pre><code>using UnityEngine;
+using System.Collections;
+using VoxelBusters.EssentialKit;
+
+public class ExampleClass : MonoBehaviour 
+{
+    public WebView m_webView;
+
+    private void Start()
+    {
+        // set web view properties
+        m_webView     = WebView.CreateInstance();
+        m_webView.SetFullScreen();
+
+        // start request
+        m_webView.LoadRequest(&quot;http://www.google.com&quot;);
+    }
+
+    private void OnEnable()
+    {
+        // registering for event
+        WebView.OnShow          += OnShow;
+        WebView.OnHide          += OnHide;
+        WebView.OnLoadStart     += OnLoadStart;
+        WebView.OnLoadFinish    += OnLoadFinish;
+    }
+
+    private void OnDisable()
+    {
+        // unregistering event
+        WebView.OnShow          -= OnShow;
+        WebView.OnHide          -= OnHide;
+        WebView.OnLoadStart     -= OnLoadStart;
+        WebView.OnLoadFinish    -= OnLoadFinish;
+    }
+
+    private void OnShow(WebView result)
+    {
+        if (m_webView == result)
+        {
+            Debug.Log(&quot;Showing webview.&quot;);
+        }
+    }
+
+    private void OnHide(WebView result)
+    {
+        if (m_webView == result)
+        {
+            Debug.Log(&quot;Hiding webview.&quot;);
+        }
+    }
+
+    private void OnLoadStart(WebView result)
+    {
+        if (m_webView == result)
+        {
+            Debug.Log(&quot;Started loading request with url:&quot; + m_webView.URL);
+        }
+    }
+
+    private OnWebViewLoadFinish(WebView result, Error error)
+    {
+        if (m_webView == result)
+        {
+            if (error == null)
+            {
+                Debug.Log(&quot;Webview did finish loading request successfully.&quot;);
+            }   
+            else
+            {
+                Debug.Log(&quot;Webview did fail to load request. Error: &quot; + error.Description);
+            }
+        }
+    }
+}</code></pre>
+
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_AutoShowOnLoadFinish_" data-uid="VoxelBusters.EssentialKit.WebView.AutoShowOnLoadFinish*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_AutoShowOnLoadFinish" data-uid="VoxelBusters.EssentialKit.WebView.AutoShowOnLoadFinish">AutoShowOnLoadFinish</h4>
+  <div class="markdown level1 summary"><p>A boolean value indicating whether webview can auto show itself when load request is finished.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AutoShowOnLoadFinish { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_BackgroundColor_" data-uid="VoxelBusters.EssentialKit.WebView.BackgroundColor*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_BackgroundColor" data-uid="VoxelBusters.EssentialKit.WebView.BackgroundColor">BackgroundColor</h4>
+  <div class="markdown level1 summary"><p>The background color of the webview.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color BackgroundColor { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_CanBounce_" data-uid="VoxelBusters.EssentialKit.WebView.CanBounce*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_CanBounce" data-uid="VoxelBusters.EssentialKit.WebView.CanBounce">CanBounce</h4>
+  <div class="markdown level1 summary"><p>A Boolean value that controls whether the web view bounces past the edge of content and back again.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanBounce { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_Frame_" data-uid="VoxelBusters.EssentialKit.WebView.Frame*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_Frame" data-uid="VoxelBusters.EssentialKit.WebView.Frame">Frame</h4>
+  <div class="markdown level1 summary"><p>The frame rectangle describes the webview’s position and size.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rect Frame { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_IsLoading_" data-uid="VoxelBusters.EssentialKit.WebView.IsLoading*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_IsLoading" data-uid="VoxelBusters.EssentialKit.WebView.IsLoading">IsLoading</h4>
+  <div class="markdown level1 summary"><p>A boolean value indicating whether this webview is loading content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsLoading { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_JavaScriptEnabled_" data-uid="VoxelBusters.EssentialKit.WebView.JavaScriptEnabled*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_JavaScriptEnabled" data-uid="VoxelBusters.EssentialKit.WebView.JavaScriptEnabled">JavaScriptEnabled</h4>
+  <div class="markdown level1 summary"><p>A boolean value indicating whether this webview allows java script execution.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool JavaScriptEnabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_Progress_" data-uid="VoxelBusters.EssentialKit.WebView.Progress*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_Progress" data-uid="VoxelBusters.EssentialKit.WebView.Progress">Progress</h4>
+  <div class="markdown level1 summary"><p>The value indicates the progress of load request.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Progress { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_ScalesPageToFit_" data-uid="VoxelBusters.EssentialKit.WebView.ScalesPageToFit*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_ScalesPageToFit" data-uid="VoxelBusters.EssentialKit.WebView.ScalesPageToFit">ScalesPageToFit</h4>
+  <div class="markdown level1 summary"><p>A boolean value indicating whether web view scales webpages to fit the view and the user can change the scale.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ScalesPageToFit { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_Style_" data-uid="VoxelBusters.EssentialKit.WebView.Style*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_Style" data-uid="VoxelBusters.EssentialKit.WebView.Style">Style</h4>
+  <div class="markdown level1 summary"><p>An enum value that determines the appearence of webview.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WebViewStyle Style { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VoxelBusters.EssentialKit.WebViewStyle.html">WebViewStyle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_Title_" data-uid="VoxelBusters.EssentialKit.WebView.Title*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_Title" data-uid="VoxelBusters.EssentialKit.WebView.Title">Title</h4>
+  <div class="markdown level1 summary"><p>The page title. (read-only)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Title { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_UnitySettings_" data-uid="VoxelBusters.EssentialKit.WebView.UnitySettings*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_UnitySettings" data-uid="VoxelBusters.EssentialKit.WebView.UnitySettings">UnitySettings</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static WebViewUnitySettings UnitySettings { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VoxelBusters.EssentialKit.WebViewUnitySettings.html">WebViewUnitySettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_URL_" data-uid="VoxelBusters.EssentialKit.WebView.URL*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_URL" data-uid="VoxelBusters.EssentialKit.WebView.URL">URL</h4>
+  <div class="markdown level1 summary"><p>The active URL. (read-only)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string URL { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_AwakeInternal_" data-uid="VoxelBusters.EssentialKit.WebView.AwakeInternal*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_AwakeInternal_System_Object___" data-uid="VoxelBusters.EssentialKit.WebView.AwakeInternal(System.Object[])">AwakeInternal(Object[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void AwakeInternal(object[] args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_ClearCache_" data-uid="VoxelBusters.EssentialKit.WebView.ClearCache*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_ClearCache" data-uid="VoxelBusters.EssentialKit.WebView.ClearCache">ClearCache()</h4>
+  <div class="markdown level1 summary"><p>Clears all stored cached URL responses.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCache()</code></pre>
+  </div>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_CreateInstance_" data-uid="VoxelBusters.EssentialKit.WebView.CreateInstance*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_CreateInstance" data-uid="VoxelBusters.EssentialKit.WebView.CreateInstance">CreateInstance()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="VoxelBusters.EssentialKit.MessageComposer.html">MessageComposer</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static WebView CreateInstance()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VoxelBusters.EssentialKit.WebView.html">WebView</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_DestroyInternal_" data-uid="VoxelBusters.EssentialKit.WebView.DestroyInternal*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_DestroyInternal" data-uid="VoxelBusters.EssentialKit.WebView.DestroyInternal">DestroyInternal()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void DestroyInternal()</code></pre>
+  </div>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_GetFeatureName_" data-uid="VoxelBusters.EssentialKit.WebView.GetFeatureName*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_GetFeatureName" data-uid="VoxelBusters.EssentialKit.WebView.GetFeatureName">GetFeatureName()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override string GetFeatureName()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_Hide_" data-uid="VoxelBusters.EssentialKit.WebView.Hide*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_Hide" data-uid="VoxelBusters.EssentialKit.WebView.Hide">Hide()</h4>
+  <div class="markdown level1 summary"><p>Hides the web view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Hide()</code></pre>
+  </div>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_IsAvailable_" data-uid="VoxelBusters.EssentialKit.WebView.IsAvailable*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_IsAvailable" data-uid="VoxelBusters.EssentialKit.WebView.IsAvailable">IsAvailable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsAvailable()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_LoadData_" data-uid="VoxelBusters.EssentialKit.WebView.LoadData*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_LoadData_System_Byte___System_String_System_String_System_Nullable_URLString__" data-uid="VoxelBusters.EssentialKit.WebView.LoadData(System.Byte[],System.String,System.String,System.Nullable{URLString})">LoadData(Byte[], String, String, Nullable&lt;URLString&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadData(byte[] data, string mimeType, string textEncodingName, URLString? baseURL = default(URLString? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mimeType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">textEncodingName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">URLString</span>&gt;</td>
+        <td><span class="parametername">baseURL</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_LoadHtmlString_" data-uid="VoxelBusters.EssentialKit.WebView.LoadHtmlString*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_LoadHtmlString_System_String_System_Nullable_URLString__" data-uid="VoxelBusters.EssentialKit.WebView.LoadHtmlString(System.String,System.Nullable{URLString})">LoadHtmlString(String, Nullable&lt;URLString&gt;)</h4>
+  <div class="markdown level1 summary"><p>Loads the webpage contents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadHtmlString(string htmlString, URLString? baseURL = default(URLString? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">htmlString</span></td>
+        <td><p>The contents of the webpage.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">URLString</span>&gt;</td>
+        <td><span class="parametername">baseURL</span></td>
+        <td><p>The base URL for the content.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_LoadURL_" data-uid="VoxelBusters.EssentialKit.WebView.LoadURL*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_LoadURL_URLString_" data-uid="VoxelBusters.EssentialKit.WebView.LoadURL(URLString)">LoadURL(URLString)</h4>
+  <div class="markdown level1 summary"><p>Connects to a given URL and asynchronously loads the content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadURL(URLString url)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">URLString</span></td>
+        <td><span class="parametername">url</span></td>
+        <td><p>A URL identifying the location of the content to load.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="VoxelBusters_EssentialKit_WebView_LoadURL_URLString__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>\note Don’t use this method to load local HTML files, instead use <see cref="!:LoadHtmlString(string, URLString)"></see>.</p>
+</div>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_Reload_" data-uid="VoxelBusters.EssentialKit.WebView.Reload*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_Reload" data-uid="VoxelBusters.EssentialKit.WebView.Reload">Reload()</h4>
+  <div class="markdown level1 summary"><p>Reloads the current page.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reload()</code></pre>
+  </div>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_RunJavaScript_" data-uid="VoxelBusters.EssentialKit.WebView.RunJavaScript*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_RunJavaScript_System_String_EventCallback_VoxelBusters_EssentialKit_WebViewRunJavaScriptResult__" data-uid="VoxelBusters.EssentialKit.WebView.RunJavaScript(System.String,EventCallback{VoxelBusters.EssentialKit.WebViewRunJavaScriptResult})">RunJavaScript(String, EventCallback&lt;WebViewRunJavaScriptResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Executes a JavaScript string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RunJavaScript(string script, EventCallback&lt;WebViewRunJavaScriptResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">script</span></td>
+        <td><p>The JavaScript string to evaluate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">EventCallback</span>&lt;<a class="xref" href="VoxelBusters.EssentialKit.WebViewRunJavaScriptResult.html">WebViewRunJavaScriptResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Callback method that will be invoked after operation is completed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_Show_" data-uid="VoxelBusters.EssentialKit.WebView.Show*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_Show" data-uid="VoxelBusters.EssentialKit.WebView.Show">Show()</h4>
+  <div class="markdown level1 summary"><p>Displays the webview on the top of Unity view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Show()</code></pre>
+  </div>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_StartInternal_" data-uid="VoxelBusters.EssentialKit.WebView.StartInternal*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_StartInternal" data-uid="VoxelBusters.EssentialKit.WebView.StartInternal">StartInternal()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void StartInternal()</code></pre>
+  </div>
+  
+  
+  <a id="VoxelBusters_EssentialKit_WebView_StopLoading_" data-uid="VoxelBusters.EssentialKit.WebView.StopLoading*"></a>
+  <h4 id="VoxelBusters_EssentialKit_WebView_StopLoading" data-uid="VoxelBusters.EssentialKit.WebView.StopLoading">StopLoading()</h4>
+  <div class="markdown level1 summary"><p>Stops loading the current page contents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopLoading()</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="VoxelBusters_EssentialKit_WebView_OnHide" data-uid="VoxelBusters.EssentialKit.WebView.OnHide">OnHide</h4>
+  <div class="markdown level1 summary"><p>Event that will be called when webview is dismissed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Callback&lt;WebView&gt; OnHide</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Callback</span>&lt;<a class="xref" href="VoxelBusters.EssentialKit.WebView.html">WebView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="VoxelBusters_EssentialKit_WebView_OnLoadFinish" data-uid="VoxelBusters.EssentialKit.WebView.OnLoadFinish">OnLoadFinish</h4>
+  <div class="markdown level1 summary"><p>Event that will be called when web view has finished loading.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event EventCallback&lt;WebView&gt; OnLoadFinish</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventCallback</span>&lt;<a class="xref" href="VoxelBusters.EssentialKit.WebView.html">WebView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="VoxelBusters_EssentialKit_WebView_OnLoadStart" data-uid="VoxelBusters.EssentialKit.WebView.OnLoadStart">OnLoadStart</h4>
+  <div class="markdown level1 summary"><p>Event that will be called when web view begins load request.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Callback&lt;WebView&gt; OnLoadStart</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Callback</span>&lt;<a class="xref" href="VoxelBusters.EssentialKit.WebView.html">WebView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="VoxelBusters_EssentialKit_WebView_OnShow" data-uid="VoxelBusters.EssentialKit.WebView.OnShow">OnShow</h4>
+  <div class="markdown level1 summary"><p>Event that will be called when webview is first displayed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Callback&lt;WebView&gt; OnShow</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Callback</span>&lt;<a class="xref" href="VoxelBusters.EssentialKit.WebView.html">WebView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

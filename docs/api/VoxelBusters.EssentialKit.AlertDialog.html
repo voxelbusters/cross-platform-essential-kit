@@ -1,0 +1,429 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AlertDialog
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AlertDialog
+   ">
+    <meta name="generator" content="docfx 2.40.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="VoxelBusters.EssentialKit.AlertDialog">
+  
+  
+  <h1 id="VoxelBusters_EssentialKit_AlertDialog" data-uid="VoxelBusters.EssentialKit.AlertDialog" class="text-break">Class AlertDialog
+  </h1>
+  <div class="markdown level0 summary"><p>The AlertDialog class provides an interface to display an alert message to the user.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">AlertDialog</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="VoxelBusters.EssentialKit.html">VoxelBusters.EssentialKit</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="VoxelBusters_EssentialKit_AlertDialog_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AlertDialog : NativeFeatureBehaviour</code></pre>
+  </div>
+  <h5 id="VoxelBusters_EssentialKit_AlertDialog_examples"><strong>Examples</strong></h5>
+  <p>The following code example shows how to configure and present an alert dialog.</p>
+<pre><code>using UnityEngine;
+using System.Collections;
+using VoxelBusters.EssentialKit;
+
+public class ExampleClass : MonoBehaviour 
+{
+    public void Start()
+    {
+        AlertDialog newDialog   = AlertDialog.CreateInstance();
+        newDialog.SetTitle(title);
+        newDialog.SetMessage(message);
+        newDialog.AddButton(button, OnAlertButtonClicked);
+        newDialog.Show();
+    }
+
+    private void OnAlertButtonClicked()
+    {
+        // add your code
+    }
+}</code></pre>
+
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="VoxelBusters_EssentialKit_AlertDialog_Message_" data-uid="VoxelBusters.EssentialKit.AlertDialog.Message*"></a>
+  <h4 id="VoxelBusters_EssentialKit_AlertDialog_Message" data-uid="VoxelBusters.EssentialKit.AlertDialog.Message">Message</h4>
+  <div class="markdown level1 summary"><p>The message of the alert.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Message { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The message of the alert.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_AlertDialog_Title_" data-uid="VoxelBusters.EssentialKit.AlertDialog.Title*"></a>
+  <h4 id="VoxelBusters_EssentialKit_AlertDialog_Title" data-uid="VoxelBusters.EssentialKit.AlertDialog.Title">Title</h4>
+  <div class="markdown level1 summary"><p>The title of the alert.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Title { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The title of the alert.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="VoxelBusters_EssentialKit_AlertDialog_AddButton_" data-uid="VoxelBusters.EssentialKit.AlertDialog.AddButton*"></a>
+  <h4 id="VoxelBusters_EssentialKit_AlertDialog_AddButton_System_String_Callback_" data-uid="VoxelBusters.EssentialKit.AlertDialog.AddButton(System.String,Callback)">AddButton(String, Callback)</h4>
+  <div class="markdown level1 summary"><p>Adds an action button to the alert. Here, the default style is used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddButton(string title, Callback callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">title</span></td>
+        <td><p>The title of the button.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Callback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>The method to execute when the user selects this button.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_AlertDialog_AddCancelButton_" data-uid="VoxelBusters.EssentialKit.AlertDialog.AddCancelButton*"></a>
+  <h4 id="VoxelBusters_EssentialKit_AlertDialog_AddCancelButton_System_String_Callback_" data-uid="VoxelBusters.EssentialKit.AlertDialog.AddCancelButton(System.String,Callback)">AddCancelButton(String, Callback)</h4>
+  <div class="markdown level1 summary"><p>Adds action button to the alert. This style type indicates the action cancels the operation and leaves things unchanged.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddCancelButton(string title, Callback callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">title</span></td>
+        <td><p>The title of the button.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Callback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>The method to execute when the user selects this button.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_AlertDialog_AwakeInternal_" data-uid="VoxelBusters.EssentialKit.AlertDialog.AwakeInternal*"></a>
+  <h4 id="VoxelBusters_EssentialKit_AlertDialog_AwakeInternal_System_Object___" data-uid="VoxelBusters.EssentialKit.AlertDialog.AwakeInternal(System.Object[])">AwakeInternal(Object[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void AwakeInternal(object[] args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_AlertDialog_CreateInstance_" data-uid="VoxelBusters.EssentialKit.AlertDialog.CreateInstance*"></a>
+  <h4 id="VoxelBusters_EssentialKit_AlertDialog_CreateInstance_VoxelBusters_EssentialKit_AlertDialogStyle_" data-uid="VoxelBusters.EssentialKit.AlertDialog.CreateInstance(VoxelBusters.EssentialKit.AlertDialogStyle)">CreateInstance(AlertDialogStyle)</h4>
+  <div class="markdown level1 summary"><p>Creates a new instance of the <a class="xref" href="VoxelBusters.EssentialKit.AlertDialog.html">AlertDialog</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AlertDialog CreateInstance(AlertDialogStyle alertStyle = AlertDialogStyle.Default)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VoxelBusters.EssentialKit.AlertDialogStyle.html">AlertDialogStyle</a></td>
+        <td><span class="parametername">alertStyle</span></td>
+        <td><p>The alert style to be used.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VoxelBusters.EssentialKit.AlertDialog.html">AlertDialog</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_AlertDialog_DestroyInternal_" data-uid="VoxelBusters.EssentialKit.AlertDialog.DestroyInternal*"></a>
+  <h4 id="VoxelBusters_EssentialKit_AlertDialog_DestroyInternal" data-uid="VoxelBusters.EssentialKit.AlertDialog.DestroyInternal">DestroyInternal()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void DestroyInternal()</code></pre>
+  </div>
+  
+  
+  <a id="VoxelBusters_EssentialKit_AlertDialog_Dismiss_" data-uid="VoxelBusters.EssentialKit.AlertDialog.Dismiss*"></a>
+  <h4 id="VoxelBusters_EssentialKit_AlertDialog_Dismiss" data-uid="VoxelBusters.EssentialKit.AlertDialog.Dismiss">Dismiss()</h4>
+  <div class="markdown level1 summary"><p>Dismisses the alert dialog before user selects an action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dismiss()</code></pre>
+  </div>
+  
+  
+  <a id="VoxelBusters_EssentialKit_AlertDialog_GetFeatureName_" data-uid="VoxelBusters.EssentialKit.AlertDialog.GetFeatureName*"></a>
+  <h4 id="VoxelBusters_EssentialKit_AlertDialog_GetFeatureName" data-uid="VoxelBusters.EssentialKit.AlertDialog.GetFeatureName">GetFeatureName()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override string GetFeatureName()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_AlertDialog_IsAvailable_" data-uid="VoxelBusters.EssentialKit.AlertDialog.IsAvailable*"></a>
+  <h4 id="VoxelBusters_EssentialKit_AlertDialog_IsAvailable" data-uid="VoxelBusters.EssentialKit.AlertDialog.IsAvailable">IsAvailable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsAvailable()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_AlertDialog_Show_" data-uid="VoxelBusters.EssentialKit.AlertDialog.Show*"></a>
+  <h4 id="VoxelBusters_EssentialKit_AlertDialog_Show" data-uid="VoxelBusters.EssentialKit.AlertDialog.Show">Show()</h4>
+  <div class="markdown level1 summary"><p>Shows the alert dialog to the user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Show()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,908 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CloudServices
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CloudServices
+   ">
+    <meta name="generator" content="docfx 2.40.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="VoxelBusters.EssentialKit.CloudServices">
+  
+  
+  <h1 id="VoxelBusters_EssentialKit_CloudServices" data-uid="VoxelBusters.EssentialKit.CloudServices" class="text-break">Class CloudServices
+  </h1>
+  <div class="markdown level0 summary"><p>Provides a cross-platform interface to sync information across various devices by storing it in the cloud.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">CloudServices</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="VoxelBusters.EssentialKit.html">VoxelBusters.EssentialKit</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="VoxelBusters_EssentialKit_CloudServices_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class CloudServices</code></pre>
+  </div>
+  <h5 id="VoxelBusters_EssentialKit_CloudServices_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>\note</p>
+<p>
+On iOS, the total amount of space available to store key-value data, for a given user, is 1 MB. There is a per-key value size limit of 1 MB, and a maximum of 1024 keys.
+If you attempt to write data that exceeds these quotas, the write attempt fails and no change is made to your cloud.
+In this scenario, the system posts the <a class="xref" href="VoxelBusters.EssentialKit.CloudServices.html#VoxelBusters_EssentialKit_CloudServices_OnSavedDataChange">OnSavedDataChange</a> with a change reason of <see cref="!:eCloudDataStoreValueChangeReason.QUOTA_VIOLATION"></see>.
+</p>
+</div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="VoxelBusters_EssentialKit_CloudServices_UnitySettings_" data-uid="VoxelBusters.EssentialKit.CloudServices.UnitySettings*"></a>
+  <h4 id="VoxelBusters_EssentialKit_CloudServices_UnitySettings" data-uid="VoxelBusters.EssentialKit.CloudServices.UnitySettings">UnitySettings</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CloudServicesUnitySettings UnitySettings { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VoxelBusters.EssentialKit.CloudServicesUnitySettings.html">CloudServicesUnitySettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="VoxelBusters_EssentialKit_CloudServices_GetBool_" data-uid="VoxelBusters.EssentialKit.CloudServices.GetBool*"></a>
+  <h4 id="VoxelBusters_EssentialKit_CloudServices_GetBool_System_String_" data-uid="VoxelBusters.EssentialKit.CloudServices.GetBool(System.String)">GetBool(String)</h4>
+  <div class="markdown level1 summary"><p>Returns the boolean value associated with the specified key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool GetBool(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>A string used to identify the value stored in the cloud data store.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The boolean value associated with the specified key, that value is returned. or <code>false</code> if the key was not found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_CloudServices_GetByteArray_" data-uid="VoxelBusters.EssentialKit.CloudServices.GetByteArray*"></a>
+  <h4 id="VoxelBusters_EssentialKit_CloudServices_GetByteArray_System_String_" data-uid="VoxelBusters.EssentialKit.CloudServices.GetByteArray(System.String)">GetByteArray(String)</h4>
+  <div class="markdown level1 summary"><p>Returns the array object associated with the specified key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] GetByteArray(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>A string used to identify the value stored in the cloud data store.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><p>Array object associated with the specified key, or <code>null</code> if the key was not found or its value is not an <code>Array</code> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_CloudServices_GetDouble_" data-uid="VoxelBusters.EssentialKit.CloudServices.GetDouble*"></a>
+  <h4 id="VoxelBusters_EssentialKit_CloudServices_GetDouble_System_String_" data-uid="VoxelBusters.EssentialKit.CloudServices.GetDouble(System.String)">GetDouble(String)</h4>
+  <div class="markdown level1 summary"><p>Returns the double value associated with the specified key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double GetDouble(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>A string used to identify the value stored in the cloud data store.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The double value associated with the specified key or <code>0</code> if the key was not found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_CloudServices_GetFloat_" data-uid="VoxelBusters.EssentialKit.CloudServices.GetFloat*"></a>
+  <h4 id="VoxelBusters_EssentialKit_CloudServices_GetFloat_System_String_" data-uid="VoxelBusters.EssentialKit.CloudServices.GetFloat(System.String)">GetFloat(String)</h4>
+  <div class="markdown level1 summary"><p>Returns the float value associated with the specified key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float GetFloat(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>A string used to identify the value stored in the cloud data store.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>The float value associated with the specified key or <code>0</code> if the key was not found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_CloudServices_GetInt_" data-uid="VoxelBusters.EssentialKit.CloudServices.GetInt*"></a>
+  <h4 id="VoxelBusters_EssentialKit_CloudServices_GetInt_System_String_" data-uid="VoxelBusters.EssentialKit.CloudServices.GetInt(System.String)">GetInt(String)</h4>
+  <div class="markdown level1 summary"><p>Returns the integer value associated with the specified key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetInt(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>A string used to identify the value stored in the cloud data store.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The integer value associated with the specified key, that value is returned. or <code>false</code> if the key was not found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_CloudServices_GetLong_" data-uid="VoxelBusters.EssentialKit.CloudServices.GetLong*"></a>
+  <h4 id="VoxelBusters_EssentialKit_CloudServices_GetLong_System_String_" data-uid="VoxelBusters.EssentialKit.CloudServices.GetLong(System.String)">GetLong(String)</h4>
+  <div class="markdown level1 summary"><p>Returns the long value associated with the specified key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static long GetLong(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>A string used to identify the value stored in the cloud data store.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>The long value associated with the specified key or <code>0</code> if the key was not found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_CloudServices_GetString_" data-uid="VoxelBusters.EssentialKit.CloudServices.GetString*"></a>
+  <h4 id="VoxelBusters_EssentialKit_CloudServices_GetString_System_String_" data-uid="VoxelBusters.EssentialKit.CloudServices.GetString(System.String)">GetString(String)</h4>
+  <div class="markdown level1 summary"><p>Returns the string value associated with the specified key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetString(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>A string used to identify the value stored in the cloud data store.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The string associated with the specified key, or <code>null</code> if the key was not found or its value is not an <code>string</code> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_CloudServices_IsAvailable_" data-uid="VoxelBusters.EssentialKit.CloudServices.IsAvailable*"></a>
+  <h4 id="VoxelBusters_EssentialKit_CloudServices_IsAvailable" data-uid="VoxelBusters.EssentialKit.CloudServices.IsAvailable">IsAvailable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsAvailable()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_CloudServices_RemoveKey_" data-uid="VoxelBusters.EssentialKit.CloudServices.RemoveKey*"></a>
+  <h4 id="VoxelBusters_EssentialKit_CloudServices_RemoveKey_System_String_" data-uid="VoxelBusters.EssentialKit.CloudServices.RemoveKey(System.String)">RemoveKey(String)</h4>
+  <div class="markdown level1 summary"><p>Removes the value associated with the specified key from the cloud data store.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveKey(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key corresponding to the value you want to remove.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_CloudServices_SetBool_" data-uid="VoxelBusters.EssentialKit.CloudServices.SetBool*"></a>
+  <h4 id="VoxelBusters_EssentialKit_CloudServices_SetBool_System_String_System_Boolean_" data-uid="VoxelBusters.EssentialKit.CloudServices.SetBool(System.String,System.Boolean)">SetBool(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Sets a boolean value for the specified key in the cloud data store.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetBool(string key, bool value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key under which to store the value. The length of this key must not exceed 64 bytes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The boolean value to store.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_CloudServices_SetByteArray_" data-uid="VoxelBusters.EssentialKit.CloudServices.SetByteArray*"></a>
+  <h4 id="VoxelBusters_EssentialKit_CloudServices_SetByteArray_System_String_System_Byte___" data-uid="VoxelBusters.EssentialKit.CloudServices.SetByteArray(System.String,System.Byte[])">SetByteArray(String, Byte[])</h4>
+  <div class="markdown level1 summary"><p>Sets an array object for the specified key in the cloud data store.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetByteArray(string key, byte[] value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key under which to store the value. The length of this key must not exceed 64 bytes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Array object whose contents has to be stored. The objects in the list must be <code>primitive</code>, <code>IList</code>, <code>IDictionary</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_CloudServices_SetDouble_" data-uid="VoxelBusters.EssentialKit.CloudServices.SetDouble*"></a>
+  <h4 id="VoxelBusters_EssentialKit_CloudServices_SetDouble_System_String_System_Double_" data-uid="VoxelBusters.EssentialKit.CloudServices.SetDouble(System.String,System.Double)">SetDouble(String, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets a double value for the specified key in the cloud data store.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetDouble(string key, double value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key under which to store the value. The length of this key must not exceed 64 bytes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The double value to store.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_CloudServices_SetFloat_" data-uid="VoxelBusters.EssentialKit.CloudServices.SetFloat*"></a>
+  <h4 id="VoxelBusters_EssentialKit_CloudServices_SetFloat_System_String_System_Single_" data-uid="VoxelBusters.EssentialKit.CloudServices.SetFloat(System.String,System.Single)">SetFloat(String, Single)</h4>
+  <div class="markdown level1 summary"><p>Sets a float value for the specified key in the cloud data store.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetFloat(string key, float value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key under which to store the value. The length of this key must not exceed 64 bytes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The float value to store.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_CloudServices_SetInt_" data-uid="VoxelBusters.EssentialKit.CloudServices.SetInt*"></a>
+  <h4 id="VoxelBusters_EssentialKit_CloudServices_SetInt_System_String_System_Int32_" data-uid="VoxelBusters.EssentialKit.CloudServices.SetInt(System.String,System.Int32)">SetInt(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Sets a interger value for the specified key in the cloud data store.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetInt(string key, int value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key under which to store the value. The length of this key must not exceed 64 bytes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The integer value to store.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_CloudServices_SetLong_" data-uid="VoxelBusters.EssentialKit.CloudServices.SetLong*"></a>
+  <h4 id="VoxelBusters_EssentialKit_CloudServices_SetLong_System_String_System_Int64_" data-uid="VoxelBusters.EssentialKit.CloudServices.SetLong(System.String,System.Int64)">SetLong(String, Int64)</h4>
+  <div class="markdown level1 summary"><p>Sets a long value for the specified key in the cloud data store.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetLong(string key, long value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key under which to store the value. The length of this key must not exceed 64 bytes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The long value to store.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_CloudServices_SetString_" data-uid="VoxelBusters.EssentialKit.CloudServices.SetString*"></a>
+  <h4 id="VoxelBusters_EssentialKit_CloudServices_SetString_System_String_System_String_" data-uid="VoxelBusters.EssentialKit.CloudServices.SetString(System.String,System.String)">SetString(String, String)</h4>
+  <div class="markdown level1 summary"><p>Sets a string value for the specified key in the cloud data store.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetString(string key, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key under which to store the value. The length of this key must not exceed 64 bytes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The string value to store.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_CloudServices_Synchronize_" data-uid="VoxelBusters.EssentialKit.CloudServices.Synchronize*"></a>
+  <h4 id="VoxelBusters_EssentialKit_CloudServices_Synchronize_Callback_VoxelBusters_EssentialKit_CloudServicesSynchronizeResult__" data-uid="VoxelBusters.EssentialKit.CloudServices.Synchronize(Callback{VoxelBusters.EssentialKit.CloudServicesSynchronizeResult})">Synchronize(Callback&lt;CloudServicesSynchronizeResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Explicitly synchronizes in-memory data with those stored on disk.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Synchronize(Callback&lt;CloudServicesSynchronizeResult&gt; callback = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Callback</span>&lt;<a class="xref" href="VoxelBusters.EssentialKit.CloudServicesSynchronizeResult.html">CloudServicesSynchronizeResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="VoxelBusters_EssentialKit_CloudServices_Synchronize_Callback_VoxelBusters_EssentialKit_CloudServicesSynchronizeResult___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>\note <a class="xref" href="VoxelBusters.EssentialKit.CloudServices.html#VoxelBusters_EssentialKit_CloudServices_OnSynchronizeComplete">OnSynchronizeComplete</a> is triggered, when your app has completed processing synchronisation request.</p>
+</div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="VoxelBusters_EssentialKit_CloudServices_OnSavedDataChange" data-uid="VoxelBusters.EssentialKit.CloudServices.OnSavedDataChange">OnSavedDataChange</h4>
+  <div class="markdown level1 summary"><p>Event that will be called when the value of one or more keys in the local key-value store changed due to incoming data pushed from cloud.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Callback&lt;CloudServicesSavedDataChangeResult&gt; OnSavedDataChange</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Callback</span>&lt;<a class="xref" href="VoxelBusters.EssentialKit.CloudServicesSavedDataChangeResult.html">CloudServicesSavedDataChangeResult</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="VoxelBusters_EssentialKit_CloudServices_OnSynchronizeComplete" data-uid="VoxelBusters.EssentialKit.CloudServices.OnSynchronizeComplete">OnSynchronizeComplete</h4>
+  <div class="markdown level1 summary"><p>Event that will be called when the synchronize request is finished.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Callback&lt;CloudServicesSynchronizeResult&gt; OnSynchronizeComplete</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Callback</span>&lt;<a class="xref" href="VoxelBusters.EssentialKit.CloudServicesSynchronizeResult.html">CloudServicesSynchronizeResult</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="VoxelBusters_EssentialKit_CloudServices_OnUserChange" data-uid="VoxelBusters.EssentialKit.CloudServices.OnUserChange">OnUserChange</h4>
+  <div class="markdown level1 summary"><p>Event that will be called when cloud user changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event EventCallback&lt;CloudServicesUserChangeResult&gt; OnUserChange</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventCallback</span>&lt;<a class="xref" href="VoxelBusters.EssentialKit.CloudServicesUserChangeResult.html">CloudServicesUserChangeResult</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

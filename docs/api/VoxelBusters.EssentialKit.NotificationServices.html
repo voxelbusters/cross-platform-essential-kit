@@ -1,0 +1,819 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class NotificationServices
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class NotificationServices
+   ">
+    <meta name="generator" content="docfx 2.40.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="VoxelBusters.EssentialKit.NotificationServices">
+  
+  
+  <h1 id="VoxelBusters_EssentialKit_NotificationServices" data-uid="VoxelBusters.EssentialKit.NotificationServices" class="text-break">Class NotificationServices
+  </h1>
+  <div class="markdown level0 summary"><p>Provides cross-platform interface for scheduling, registering and handling notifications.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">NotificationServices</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="VoxelBusters.EssentialKit.html">VoxelBusters.EssentialKit</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="VoxelBusters_EssentialKit_NotificationServices_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class NotificationServices</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="VoxelBusters_EssentialKit_NotificationServices_CachedSettings_" data-uid="VoxelBusters.EssentialKit.NotificationServices.CachedSettings*"></a>
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_CachedSettings" data-uid="VoxelBusters.EssentialKit.NotificationServices.CachedSettings">CachedSettings</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static NotificationSettings CachedSettings { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VoxelBusters.EssentialKit.NotificationSettings.html">NotificationSettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_NotificationServices_ScheduledNotifications_" data-uid="VoxelBusters.EssentialKit.NotificationServices.ScheduledNotifications*"></a>
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_ScheduledNotifications" data-uid="VoxelBusters.EssentialKit.NotificationServices.ScheduledNotifications">ScheduledNotifications</h4>
+  <div class="markdown level1 summary"><p>Returns the cached scheduled notification array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static INotification[] ScheduledNotifications { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VoxelBusters.EssentialKit.INotification.html">INotification</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="VoxelBusters_EssentialKit_NotificationServices_ScheduledNotifications_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>\note This property is invalid until a call to <a class="xref" href="VoxelBusters.EssentialKit.NotificationServices.html#VoxelBusters_EssentialKit_NotificationServices_GetScheduledNotifications_EventCallback_VoxelBusters_EssentialKit_NotificationServicesGetScheduledNotificationsResult__">GetScheduledNotifications(EventCallback&lt;NotificationServicesGetScheduledNotificationsResult&gt;)</a> is completed.</p>
+</div>
+  
+  
+  <a id="VoxelBusters_EssentialKit_NotificationServices_UnitySettings_" data-uid="VoxelBusters.EssentialKit.NotificationServices.UnitySettings*"></a>
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_UnitySettings" data-uid="VoxelBusters.EssentialKit.NotificationServices.UnitySettings">UnitySettings</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static NotificationServicesUnitySettings UnitySettings { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VoxelBusters.EssentialKit.NotificationServicesUnitySettings.html">NotificationServicesUnitySettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="VoxelBusters_EssentialKit_NotificationServices_CancelAllScheduledNotifications_" data-uid="VoxelBusters.EssentialKit.NotificationServices.CancelAllScheduledNotifications*"></a>
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_CancelAllScheduledNotifications" data-uid="VoxelBusters.EssentialKit.NotificationServices.CancelAllScheduledNotifications">CancelAllScheduledNotifications()</h4>
+  <div class="markdown level1 summary"><p>Unschedules all pending notification requests.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CancelAllScheduledNotifications()</code></pre>
+  </div>
+  
+  
+  <a id="VoxelBusters_EssentialKit_NotificationServices_CancelScheduledNotification_" data-uid="VoxelBusters.EssentialKit.NotificationServices.CancelScheduledNotification*"></a>
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_CancelScheduledNotification_System_String_" data-uid="VoxelBusters.EssentialKit.NotificationServices.CancelScheduledNotification(System.String)">CancelScheduledNotification(String)</h4>
+  <div class="markdown level1 summary"><p>Unschedules the specified notification.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CancelScheduledNotification(string notificationId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">notificationId</span></td>
+        <td><p>Notification id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_NotificationServices_CancelScheduledNotification_" data-uid="VoxelBusters.EssentialKit.NotificationServices.CancelScheduledNotification*"></a>
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_CancelScheduledNotification_VoxelBusters_EssentialKit_INotification_" data-uid="VoxelBusters.EssentialKit.NotificationServices.CancelScheduledNotification(VoxelBusters.EssentialKit.INotification)">CancelScheduledNotification(INotification)</h4>
+  <div class="markdown level1 summary"><p>Unschedules the specified notification.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CancelScheduledNotification(INotification notification)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VoxelBusters.EssentialKit.INotification.html">INotification</a></td>
+        <td><span class="parametername">notification</span></td>
+        <td><p>Notification.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_NotificationServices_CreateNotificationWithId_" data-uid="VoxelBusters.EssentialKit.NotificationServices.CreateNotificationWithId*"></a>
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_CreateNotificationWithId_System_String_" data-uid="VoxelBusters.EssentialKit.NotificationServices.CreateNotificationWithId(System.String)">CreateNotificationWithId(String)</h4>
+  <div class="markdown level1 summary"><p>Creates a new instance of local notification.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static NotificationBuilder CreateNotificationWithId(string notificationId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">notificationId</span></td>
+        <td><p>Notification identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VoxelBusters.EssentialKit.NotificationBuilder.html">NotificationBuilder</a></td>
+        <td><p>The notification.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_NotificationServices_GetDeliveredNotifications_" data-uid="VoxelBusters.EssentialKit.NotificationServices.GetDeliveredNotifications*"></a>
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_GetDeliveredNotifications_EventCallback_VoxelBusters_EssentialKit_NotificationServicesGetDeliveredNotificationsResult__" data-uid="VoxelBusters.EssentialKit.NotificationServices.GetDeliveredNotifications(EventCallback{VoxelBusters.EssentialKit.NotificationServicesGetDeliveredNotificationsResult})">GetDeliveredNotifications(EventCallback&lt;NotificationServicesGetDeliveredNotificationsResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns a list of the app’s notifications that are still displayed in Notification Center.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void GetDeliveredNotifications(EventCallback&lt;NotificationServicesGetDeliveredNotificationsResult&gt; callback = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventCallback</span>&lt;<a class="xref" href="VoxelBusters.EssentialKit.NotificationServicesGetDeliveredNotificationsResult.html">NotificationServicesGetDeliveredNotificationsResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Callback method that will be invoked after operation is completed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_NotificationServices_GetScheduledNotifications_" data-uid="VoxelBusters.EssentialKit.NotificationServices.GetScheduledNotifications*"></a>
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_GetScheduledNotifications_EventCallback_VoxelBusters_EssentialKit_NotificationServicesGetScheduledNotificationsResult__" data-uid="VoxelBusters.EssentialKit.NotificationServices.GetScheduledNotifications(EventCallback{VoxelBusters.EssentialKit.NotificationServicesGetScheduledNotificationsResult})">GetScheduledNotifications(EventCallback&lt;NotificationServicesGetScheduledNotificationsResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns a list of all notification requests that are scheduled and waiting to be delivered.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void GetScheduledNotifications(EventCallback&lt;NotificationServicesGetScheduledNotificationsResult&gt; callback = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventCallback</span>&lt;<a class="xref" href="VoxelBusters.EssentialKit.NotificationServicesGetScheduledNotificationsResult.html">NotificationServicesGetScheduledNotificationsResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Callback method that will be invoked after operation is completed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_NotificationServices_GetSettings_" data-uid="VoxelBusters.EssentialKit.NotificationServices.GetSettings*"></a>
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_GetSettings_Callback_VoxelBusters_EssentialKit_NotificationServicesGetSettingsResult__" data-uid="VoxelBusters.EssentialKit.NotificationServices.GetSettings(Callback{VoxelBusters.EssentialKit.NotificationServicesGetSettingsResult})">GetSettings(Callback&lt;NotificationServicesGetSettingsResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets the notification settings available for this application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void GetSettings(Callback&lt;NotificationServicesGetSettingsResult&gt; callback = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Callback</span>&lt;<a class="xref" href="VoxelBusters.EssentialKit.NotificationServicesGetSettingsResult.html">NotificationServicesGetSettingsResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Callback method that will be invoked after operation is completed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_NotificationServices_IsAuthorized_" data-uid="VoxelBusters.EssentialKit.NotificationServices.IsAuthorized*"></a>
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_IsAuthorized" data-uid="VoxelBusters.EssentialKit.NotificationServices.IsAuthorized">IsAuthorized()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsAuthorized()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_NotificationServices_IsAuthorizedPermissionStatus_" data-uid="VoxelBusters.EssentialKit.NotificationServices.IsAuthorizedPermissionStatus*"></a>
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_IsAuthorizedPermissionStatus_VoxelBusters_EssentialKit_NotificationPermissionStatus_" data-uid="VoxelBusters.EssentialKit.NotificationServices.IsAuthorizedPermissionStatus(VoxelBusters.EssentialKit.NotificationPermissionStatus)">IsAuthorizedPermissionStatus(NotificationPermissionStatus)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsAuthorizedPermissionStatus(NotificationPermissionStatus accessStatus)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VoxelBusters.EssentialKit.NotificationPermissionStatus.html">NotificationPermissionStatus</a></td>
+        <td><span class="parametername">accessStatus</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_NotificationServices_IsAvailable_" data-uid="VoxelBusters.EssentialKit.NotificationServices.IsAvailable*"></a>
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_IsAvailable" data-uid="VoxelBusters.EssentialKit.NotificationServices.IsAvailable">IsAvailable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsAvailable()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_NotificationServices_IsInitializedAndAuthorized_" data-uid="VoxelBusters.EssentialKit.NotificationServices.IsInitializedAndAuthorized*"></a>
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_IsInitializedAndAuthorized" data-uid="VoxelBusters.EssentialKit.NotificationServices.IsInitializedAndAuthorized">IsInitializedAndAuthorized()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool? IsInitializedAndAuthorized()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_NotificationServices_IsPermissionAvailable_" data-uid="VoxelBusters.EssentialKit.NotificationServices.IsPermissionAvailable*"></a>
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_IsPermissionAvailable" data-uid="VoxelBusters.EssentialKit.NotificationServices.IsPermissionAvailable">IsPermissionAvailable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsPermissionAvailable()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_NotificationServices_IsRegisteredForPushNotifications_" data-uid="VoxelBusters.EssentialKit.NotificationServices.IsRegisteredForPushNotifications*"></a>
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_IsRegisteredForPushNotifications" data-uid="VoxelBusters.EssentialKit.NotificationServices.IsRegisteredForPushNotifications">IsRegisteredForPushNotifications()</h4>
+  <div class="markdown level1 summary"><p>Returns the registeration status for remote notifications.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsRegisteredForPushNotifications()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code>, if registered for remote notifications, <code>false</code> otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_NotificationServices_RegisterForPushNotifications_" data-uid="VoxelBusters.EssentialKit.NotificationServices.RegisterForPushNotifications*"></a>
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_RegisterForPushNotifications_EventCallback_VoxelBusters_EssentialKit_NotificationServicesRegisterForPushNotificationsResult__" data-uid="VoxelBusters.EssentialKit.NotificationServices.RegisterForPushNotifications(EventCallback{VoxelBusters.EssentialKit.NotificationServicesRegisterForPushNotificationsResult})">RegisterForPushNotifications(EventCallback&lt;NotificationServicesRegisterForPushNotificationsResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Registers to receive remote notifications via Push Notification service.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RegisterForPushNotifications(EventCallback&lt;NotificationServicesRegisterForPushNotificationsResult&gt; callback = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventCallback</span>&lt;<a class="xref" href="VoxelBusters.EssentialKit.NotificationServicesRegisterForPushNotificationsResult.html">NotificationServicesRegisterForPushNotificationsResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Callback method that will be invoked after operation is completed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="VoxelBusters_EssentialKit_NotificationServices_RegisterForPushNotifications_EventCallback_VoxelBusters_EssentialKit_NotificationServicesRegisterForPushNotificationsResult___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>\note If you want your app’s remote notifications to display alerts, play sounds etc you must call the <a class="xref" href="VoxelBusters.EssentialKit.NotificationServices.html#VoxelBusters_EssentialKit_NotificationServices_RequestPermission_VoxelBusters_EssentialKit_NotificationPermissionOptions_System_Boolean_EventCallback_VoxelBusters_EssentialKit_NotificationServicesRequestPermissionResult__">RequestPermission(NotificationPermissionOptions, Boolean, EventCallback&lt;NotificationServicesRequestPermissionResult&gt;)</a> method before registering for remote notifications.</p>
+</div>
+  
+  
+  <a id="VoxelBusters_EssentialKit_NotificationServices_RemoveAllDeliveredNotifications_" data-uid="VoxelBusters.EssentialKit.NotificationServices.RemoveAllDeliveredNotifications*"></a>
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_RemoveAllDeliveredNotifications" data-uid="VoxelBusters.EssentialKit.NotificationServices.RemoveAllDeliveredNotifications">RemoveAllDeliveredNotifications()</h4>
+  <div class="markdown level1 summary"><p>Removes all of the app’s delivered notifications from Notification Center.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveAllDeliveredNotifications()</code></pre>
+  </div>
+  
+  
+  <a id="VoxelBusters_EssentialKit_NotificationServices_RequestPermission_" data-uid="VoxelBusters.EssentialKit.NotificationServices.RequestPermission*"></a>
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_RequestPermission_VoxelBusters_EssentialKit_NotificationPermissionOptions_System_Boolean_EventCallback_VoxelBusters_EssentialKit_NotificationServicesRequestPermissionResult__" data-uid="VoxelBusters.EssentialKit.NotificationServices.RequestPermission(VoxelBusters.EssentialKit.NotificationPermissionOptions,System.Boolean,EventCallback{VoxelBusters.EssentialKit.NotificationServicesRequestPermissionResult})">RequestPermission(NotificationPermissionOptions, Boolean, EventCallback&lt;NotificationServicesRequestPermissionResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Requests for permission to interact with the user when local and remote notifications are delivered to the user's device.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RequestPermission(NotificationPermissionOptions options, bool showPrepermissionDialog = true, EventCallback&lt;NotificationServicesRequestPermissionResult&gt; callback = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VoxelBusters.EssentialKit.NotificationPermissionOptions.html">NotificationPermissionOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>The authorization options your app is requesting. You may combine the available constants to request authorization for multiple items.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">showPrepermissionDialog</span></td>
+        <td><p>Indicates whether pre-confirmation is required, before prompting system permission dialog.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">EventCallback</span>&lt;<a class="xref" href="VoxelBusters.EssentialKit.NotificationServicesRequestPermissionResult.html">NotificationServicesRequestPermissionResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Callback method that will be invoked after operation is completed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_NotificationServices_ScheduleNotification_" data-uid="VoxelBusters.EssentialKit.NotificationServices.ScheduleNotification*"></a>
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_ScheduleNotification_VoxelBusters_EssentialKit_INotification_CompletionCallback_" data-uid="VoxelBusters.EssentialKit.NotificationServices.ScheduleNotification(VoxelBusters.EssentialKit.INotification,CompletionCallback)">ScheduleNotification(INotification, CompletionCallback)</h4>
+  <div class="markdown level1 summary"><p>Schedules a local notification for delivery.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ScheduleNotification(INotification notification, CompletionCallback callback = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VoxelBusters.EssentialKit.INotification.html">INotification</a></td>
+        <td><span class="parametername">notification</span></td>
+        <td><p>Notification.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CompletionCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Callback method that will be invoked after operation is completed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_NotificationServices_TryRegisterForPushNotifications_" data-uid="VoxelBusters.EssentialKit.NotificationServices.TryRegisterForPushNotifications*"></a>
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_TryRegisterForPushNotifications" data-uid="VoxelBusters.EssentialKit.NotificationServices.TryRegisterForPushNotifications">TryRegisterForPushNotifications()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void TryRegisterForPushNotifications()</code></pre>
+  </div>
+  
+  
+  <a id="VoxelBusters_EssentialKit_NotificationServices_UnregisterForPushNotifications_" data-uid="VoxelBusters.EssentialKit.NotificationServices.UnregisterForPushNotifications*"></a>
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_UnregisterForPushNotifications" data-uid="VoxelBusters.EssentialKit.NotificationServices.UnregisterForPushNotifications">UnregisterForPushNotifications()</h4>
+  <div class="markdown level1 summary"><p>Unregister for all remote notifications received via Push Notification service.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UnregisterForPushNotifications()</code></pre>
+  </div>
+  <h5 id="VoxelBusters_EssentialKit_NotificationServices_UnregisterForPushNotifications_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>\note Apps unregistered through this method can always re-register.</p>
+</div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_OnNotificationReceived" data-uid="VoxelBusters.EssentialKit.NotificationServices.OnNotificationReceived">OnNotificationReceived</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Callback&lt;NotificationServicesNotificationReceivedResult&gt; OnNotificationReceived</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Callback</span>&lt;<a class="xref" href="VoxelBusters.EssentialKit.NotificationServicesNotificationReceivedResult.html">NotificationServicesNotificationReceivedResult</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_OnRegisterForPushNotificationsComplete" data-uid="VoxelBusters.EssentialKit.NotificationServices.OnRegisterForPushNotificationsComplete">OnRegisterForPushNotificationsComplete</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event EventCallback&lt;NotificationServicesRegisterForPushNotificationsResult&gt; OnRegisterForPushNotificationsComplete</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventCallback</span>&lt;<a class="xref" href="VoxelBusters.EssentialKit.NotificationServicesRegisterForPushNotificationsResult.html">NotificationServicesRegisterForPushNotificationsResult</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="VoxelBusters_EssentialKit_NotificationServices_OnSettingsUpdate" data-uid="VoxelBusters.EssentialKit.NotificationServices.OnSettingsUpdate">OnSettingsUpdate</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Callback&lt;NotificationSettings&gt; OnSettingsUpdate</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Callback</span>&lt;<a class="xref" href="VoxelBusters.EssentialKit.NotificationSettings.html">NotificationSettings</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

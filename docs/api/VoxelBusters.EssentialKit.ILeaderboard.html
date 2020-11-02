@@ -1,0 +1,457 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ILeaderboard
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ILeaderboard
+   ">
+    <meta name="generator" content="docfx 2.40.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="VoxelBusters.EssentialKit.ILeaderboard">
+  
+  
+  <h1 id="VoxelBusters_EssentialKit_ILeaderboard" data-uid="VoxelBusters.EssentialKit.ILeaderboard" class="text-break">Interface ILeaderboard
+  </h1>
+  <div class="markdown level0 summary"><p>Provides interface to read data from a leaderboard stored on game server.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="VoxelBusters.EssentialKit.html">VoxelBusters.EssentialKit</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="VoxelBusters_EssentialKit_ILeaderboard_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ILeaderboard</code></pre>
+  </div>
+  <h5 id="VoxelBusters_EssentialKit_ILeaderboard_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>\note Your game must authenticate the local user before using any features.</p>
+</div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="VoxelBusters_EssentialKit_ILeaderboard_Id_" data-uid="VoxelBusters.EssentialKit.ILeaderboard.Id*"></a>
+  <h4 id="VoxelBusters_EssentialKit_ILeaderboard_Id" data-uid="VoxelBusters.EssentialKit.ILeaderboard.Id">Id</h4>
+  <div class="markdown level1 summary"><p>An unique string used to identify the leaderboard across all the supported platforms. (read-only)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Id { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_ILeaderboard_LoadScoresQuerySize_" data-uid="VoxelBusters.EssentialKit.ILeaderboard.LoadScoresQuerySize*"></a>
+  <h4 id="VoxelBusters_EssentialKit_ILeaderboard_LoadScoresQuerySize" data-uid="VoxelBusters.EssentialKit.ILeaderboard.LoadScoresQuerySize">LoadScoresQuerySize</h4>
+  <div class="markdown level1 summary"><p>The value indicates maximum entries that has to be fetched from search.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int LoadScoresQuerySize { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_ILeaderboard_LocalPlayerScore_" data-uid="VoxelBusters.EssentialKit.ILeaderboard.LocalPlayerScore*"></a>
+  <h4 id="VoxelBusters_EssentialKit_ILeaderboard_LocalPlayerScore" data-uid="VoxelBusters.EssentialKit.ILeaderboard.LocalPlayerScore">LocalPlayerScore</h4>
+  <div class="markdown level1 summary"><p>Returns the <a class="xref" href="VoxelBusters.EssentialKit.IScore.html">IScore</a> earned by the local player. (read-only)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IScore LocalPlayerScore { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VoxelBusters.EssentialKit.IScore.html">IScore</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="VoxelBusters_EssentialKit_ILeaderboard_LocalPlayerScore_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>\note This property is invalid until a call to load scores is completed.</p>
+</div>
+  
+  
+  <a id="VoxelBusters_EssentialKit_ILeaderboard_PlatformId_" data-uid="VoxelBusters.EssentialKit.ILeaderboard.PlatformId*"></a>
+  <h4 id="VoxelBusters_EssentialKit_ILeaderboard_PlatformId" data-uid="VoxelBusters.EssentialKit.ILeaderboard.PlatformId">PlatformId</h4>
+  <div class="markdown level1 summary"><p>An unique used to identify the leaderboard in the current platform. (read-only)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string PlatformId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_ILeaderboard_PlayerScope_" data-uid="VoxelBusters.EssentialKit.ILeaderboard.PlayerScope*"></a>
+  <h4 id="VoxelBusters_EssentialKit_ILeaderboard_PlayerScope" data-uid="VoxelBusters.EssentialKit.ILeaderboard.PlayerScope">PlayerScope</h4>
+  <div class="markdown level1 summary"><p>A filter used to restrict the search to a subset of the players on game server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">LeaderboardPlayerScope PlayerScope { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VoxelBusters.EssentialKit.LeaderboardPlayerScope.html">LeaderboardPlayerScope</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_ILeaderboard_TimeScope_" data-uid="VoxelBusters.EssentialKit.ILeaderboard.TimeScope*"></a>
+  <h4 id="VoxelBusters_EssentialKit_ILeaderboard_TimeScope" data-uid="VoxelBusters.EssentialKit.ILeaderboard.TimeScope">TimeScope</h4>
+  <div class="markdown level1 summary"><p>A filter used to restrict the search to scores that were posted within a specific period of time.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">LeaderboardTimeScope TimeScope { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VoxelBusters.EssentialKit.LeaderboardTimeScope.html">LeaderboardTimeScope</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_ILeaderboard_Title_" data-uid="VoxelBusters.EssentialKit.ILeaderboard.Title*"></a>
+  <h4 id="VoxelBusters_EssentialKit_ILeaderboard_Title" data-uid="VoxelBusters.EssentialKit.ILeaderboard.Title">Title</h4>
+  <div class="markdown level1 summary"><p>A localized title for the leaderboard. (read-only)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Title { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="VoxelBusters_EssentialKit_ILeaderboard_LoadImage_" data-uid="VoxelBusters.EssentialKit.ILeaderboard.LoadImage*"></a>
+  <h4 id="VoxelBusters_EssentialKit_ILeaderboard_LoadImage_EventCallback_TextureData__" data-uid="VoxelBusters.EssentialKit.ILeaderboard.LoadImage(EventCallback{TextureData})">LoadImage(EventCallback&lt;TextureData&gt;)</h4>
+  <div class="markdown level1 summary"><p>Loads the image.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LoadImage(EventCallback&lt;TextureData&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventCallback</span>&lt;<span class="xref">TextureData</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Callback method that will be invoked after operation is completed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_ILeaderboard_LoadNext_" data-uid="VoxelBusters.EssentialKit.ILeaderboard.LoadNext*"></a>
+  <h4 id="VoxelBusters_EssentialKit_ILeaderboard_LoadNext_EventCallback_VoxelBusters_EssentialKit_LeaderboardLoadScoresResult__" data-uid="VoxelBusters.EssentialKit.ILeaderboard.LoadNext(EventCallback{VoxelBusters.EssentialKit.LeaderboardLoadScoresResult})">LoadNext(EventCallback&lt;LeaderboardLoadScoresResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Loads next set of scores.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LoadNext(EventCallback&lt;LeaderboardLoadScoresResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventCallback</span>&lt;<a class="xref" href="VoxelBusters.EssentialKit.LeaderboardLoadScoresResult.html">LeaderboardLoadScoresResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Callback method that will be invoked after operation is completed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_ILeaderboard_LoadPlayerCenteredScores_" data-uid="VoxelBusters.EssentialKit.ILeaderboard.LoadPlayerCenteredScores*"></a>
+  <h4 id="VoxelBusters_EssentialKit_ILeaderboard_LoadPlayerCenteredScores_EventCallback_VoxelBusters_EssentialKit_LeaderboardLoadScoresResult__" data-uid="VoxelBusters.EssentialKit.ILeaderboard.LoadPlayerCenteredScores(EventCallback{VoxelBusters.EssentialKit.LeaderboardLoadScoresResult})">LoadPlayerCenteredScores(EventCallback&lt;LeaderboardLoadScoresResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Loads player-centered set of scores.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LoadPlayerCenteredScores(EventCallback&lt;LeaderboardLoadScoresResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventCallback</span>&lt;<a class="xref" href="VoxelBusters.EssentialKit.LeaderboardLoadScoresResult.html">LeaderboardLoadScoresResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Callback method that will be invoked after operation is completed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_ILeaderboard_LoadPrevious_" data-uid="VoxelBusters.EssentialKit.ILeaderboard.LoadPrevious*"></a>
+  <h4 id="VoxelBusters_EssentialKit_ILeaderboard_LoadPrevious_EventCallback_VoxelBusters_EssentialKit_LeaderboardLoadScoresResult__" data-uid="VoxelBusters.EssentialKit.ILeaderboard.LoadPrevious(EventCallback{VoxelBusters.EssentialKit.LeaderboardLoadScoresResult})">LoadPrevious(EventCallback&lt;LeaderboardLoadScoresResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Loads previous set of scores.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LoadPrevious(EventCallback&lt;LeaderboardLoadScoresResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventCallback</span>&lt;<a class="xref" href="VoxelBusters.EssentialKit.LeaderboardLoadScoresResult.html">LeaderboardLoadScoresResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Callback method that will be invoked after operation is completed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_ILeaderboard_LoadTopScores_" data-uid="VoxelBusters.EssentialKit.ILeaderboard.LoadTopScores*"></a>
+  <h4 id="VoxelBusters_EssentialKit_ILeaderboard_LoadTopScores_EventCallback_VoxelBusters_EssentialKit_LeaderboardLoadScoresResult__" data-uid="VoxelBusters.EssentialKit.ILeaderboard.LoadTopScores(EventCallback{VoxelBusters.EssentialKit.LeaderboardLoadScoresResult})">LoadTopScores(EventCallback&lt;LeaderboardLoadScoresResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Loads the top set of scores.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LoadTopScores(EventCallback&lt;LeaderboardLoadScoresResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventCallback</span>&lt;<a class="xref" href="VoxelBusters.EssentialKit.LeaderboardLoadScoresResult.html">LeaderboardLoadScoresResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Callback method that will be invoked after operation is completed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,3560 @@
+{
+  "homepages": [],
+  "source_base_path": "/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/Documentation/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.AchievementDefinition.AndroidPlatformProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.AchievementDefinition.AndroidPlatformProperties.html",
+          "hash": "K4xkJD8I7q2d/6284F6GRA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.AchievementDefinition.IosPlatformProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.AchievementDefinition.IosPlatformProperties.html",
+          "hash": "0XF5jy+wZnORSvupS5EGtw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.AchievementDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.AchievementDefinition.html",
+          "hash": "bd/njQXu4++aBQRU29xX2Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.AddressBook.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.AddressBook.html",
+          "hash": "pTkZW+nBF0/c5cn95tfjdA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.AddressBookContactsAccessStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.AddressBookContactsAccessStatus.html",
+          "hash": "/2JmOHC6+krXb8gZTbne3A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.AddressBookContactBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.AddressBookContactBase.html",
+          "hash": "zFuUZSB4e2LYXVg899UWmA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.GetContactsAccessStatusInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.GetContactsAccessStatusInternalCallback.html",
+          "hash": "MoaFHT8tTLYNU9UDNlMRVQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.INativeAddressBookInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.INativeAddressBookInterface.html",
+          "hash": "hbOwRd1jRthk3744St3DaA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.NativeAddressBookContactData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.NativeAddressBookContactData.html",
+          "hash": "uGP2oh0ZkWjKGFc6mr9nMQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.NativeAddressBookInterfaceBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.NativeAddressBookInterfaceBase.html",
+          "hash": "kFJz1GKOrMp+I6Bk5orXHg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.ReadContactsInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.ReadContactsInternalCallback.html",
+          "hash": "Q/6E+ZGou49ZRk4JSsZy3g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.RequestContactsAccessInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.RequestContactsAccessInternalCallback.html",
+          "hash": "+TlUj3V74+0STG7qmGTL4A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.html",
+          "hash": "8diWzuzs2twLYvqHrRK9sw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.AddressBookReadContactsResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.AddressBookReadContactsResult.html",
+          "hash": "rE58EH94OSIXKcyBdCOwCg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.AddressBookRequestContactsAccessResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.AddressBookRequestContactsAccessResult.html",
+          "hash": "hFK+QgCnVywT61W9+n6EBQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.AddressBookUnitySettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.AddressBookUnitySettings.html",
+          "hash": "XdNbsqcKSE97KWDApC13BQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.AlertDialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.AlertDialog.html",
+          "hash": "z1FXijDPIRCfxCgEFdbS/w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.AlertDialogBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.AlertDialogBuilder.html",
+          "hash": "IqIjYsE1R4mmPVNjN/KQvQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.AlertDialogStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.AlertDialogStyle.html",
+          "hash": "sfb7AhoWWm/eoI01nMgE/A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.ApplicationSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.ApplicationSettings.html",
+          "hash": "+zcu0aCbvRmgay6TdMKtCw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingBuyProductErrorCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingBuyProductErrorCode.html",
+          "hash": "S3F5sQ9hOh08x7+9JgdRtA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingErrorDomain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingErrorDomain.html",
+          "hash": "+CXTdNQtvpYBpEl5uxH3mw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingInitializeStoreErrorCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingInitializeStoreErrorCode.html",
+          "hash": "xyNGSqbAjyPNkuWjw1udVQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingProductDefinition.AndroidPlatformProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingProductDefinition.AndroidPlatformProperties.html",
+          "hash": "cP23lYxlUv5N0UbwxwEJ6Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingProductDefinition.IosPlatformProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingProductDefinition.IosPlatformProperties.html",
+          "hash": "3tTsVwifht6sb3j/DLjldw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingProductDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingProductDefinition.html",
+          "hash": "pEVwukkr2IYKxq9HibGrIA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingProductType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingProductType.html",
+          "hash": "bn9DaRYcltzjTG15VNQOgg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingReceiptVerificationState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingReceiptVerificationState.html",
+          "hash": "41uzAWPdQNoqO987n8TXBA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingRestorePurchasesErrorCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingRestorePurchasesErrorCode.html",
+          "hash": "omX8Zi49hPwrz3d2WmbE+A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingServices.html",
+          "hash": "nrXetzGATh0c10GtXulAoQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.BillingPayment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.BillingPayment.html",
+          "hash": "OOM7WPYGQrPhDBrJcLCTww=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.BillingProductBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.BillingProductBase.html",
+          "hash": "KX+Ryews/GwCEnV3zoppcQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.html",
+          "hash": "q/gNEB04CL0hWdAdc98Ytw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.INativeBillingServicesInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.INativeBillingServicesInterface.html",
+          "hash": "KLKctWgPjqR1Wu1jEsZ8pQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.NativeBillingServicesInterfaceBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.NativeBillingServicesInterfaceBase.html",
+          "hash": "lss/acmxT6R+ZjEITI4BtA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.PaymentStateChangeInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.PaymentStateChangeInternalCallback.html",
+          "hash": "XU3hdIrfVlnXxxnWwygAog=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.RestorePurchasesInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.RestorePurchasesInternalCallback.html",
+          "hash": "GgXb3yIvXmEBy9WA84ceIQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.RetrieveProductsInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.RetrieveProductsInternalCallback.html",
+          "hash": "zc9GXPzZ05S4PxecOD2/Dg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.html",
+          "hash": "afg+eINwpIqtixkx+mM0pQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServicesInitializeStoreResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesInitializeStoreResult.html",
+          "hash": "h2nE+ySysTpLTRxjtHpzhA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServicesRestorePurchasesResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesRestorePurchasesResult.html",
+          "hash": "A4YTrexcEDWxx0+B0uH/EQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServicesTransactionStateChangeResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesTransactionStateChangeResult.html",
+          "hash": "ms6plw++p1BNQ9+ORpaeJA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServicesUnitySettings.AndroidPlatformProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesUnitySettings.AndroidPlatformProperties.html",
+          "hash": "7NMF2beGCrwZJOHzT5n7rw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServicesUnitySettings.IosPlatformProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesUnitySettings.IosPlatformProperties.html",
+          "hash": "9xpdZSaUYJljmribGb8daA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServicesUnitySettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesUnitySettings.html",
+          "hash": "k4qOSIeKjP219rQZ9fuPag=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingTransactionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.BillingTransactionState.html",
+          "hash": "dTlqap+i3s+8IvIrjGNgLQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.CalendarNotificationTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.CalendarNotificationTrigger.html",
+          "hash": "tnWJ8NTZhKOlIusmIQ1bBA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.CameraAccessStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.CameraAccessStatus.html",
+          "hash": "NJqsZDs3yqAKDSw3ldNVFA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.CloudSavedDataChangeReasonCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.CloudSavedDataChangeReasonCode.html",
+          "hash": "XbFjTAjCPGI3NDavAHNNVQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.CloudServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.CloudServices.html",
+          "hash": "2rLZ+wko2qaxUm3VwgQxDg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.CloudUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.CloudUser.html",
+          "hash": "+ZoO6hU51SU62FwWb7eTZQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.INativeCloudServicesInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.INativeCloudServicesInterface.html",
+          "hash": "qBb2WrIpErdRQ+YP9gjcfg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.NativeCloudServicesInterfaceBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.NativeCloudServicesInterfaceBase.html",
+          "hash": "6FBhKWGrnnY3jj2qS1uFdQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.NullCloudServicesInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.NullCloudServicesInterface.html",
+          "hash": "wBFjkTk83QjO40CCSH9lIw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.SavedDataChangeInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.SavedDataChangeInternalCallback.html",
+          "hash": "43EqDpRAYEbNQM0VsiYvSw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.SynchronizeInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.SynchronizeInternalCallback.html",
+          "hash": "j2JUsoKXtPMeX+Nre72Xag=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.UserChangeInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.UserChangeInternalCallback.html",
+          "hash": "a1Tl0PLSexEt93KdahNKmg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.html",
+          "hash": "0vnqavmrgZuuSN/XWc0ZIw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.CloudServicesSavedDataChangeResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.CloudServicesSavedDataChangeResult.html",
+          "hash": "jOhnDdLrkxhkaqg/uKMxtA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.CloudServicesSynchronizeResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.CloudServicesSynchronizeResult.html",
+          "hash": "DryndVo0zoRbXCuHGtBkCw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.CloudServicesUnitySettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.CloudServicesUnitySettings.html",
+          "hash": "A7lWTlqNOwM89RO2ZSNBhQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.CloudServicesUserChangeResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.CloudServicesUserChangeResult.html",
+          "hash": "5V3oyGbQL46PbGqvNbqmnQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.CloudUserAccountStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.CloudUserAccountStatus.html",
+          "hash": "K1Gs7lBJ87N0IbIMfNMDWA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.DatePicker.ValueChangeCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.DatePicker.ValueChangeCallback.html",
+          "hash": "Lo/37T7KQraeEUykdEEeRA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.DatePicker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.DatePicker.html",
+          "hash": "l434HkWpjn/uBr60j98zcw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.DatePickerMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.DatePickerMode.html",
+          "hash": "77LnEIf9y430UpYI06HeWA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.DatePickerResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.DatePickerResult.html",
+          "hash": "+al0VsihB5qDO6ItaZBRAA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.DeepLinkDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.DeepLinkDefinition.html",
+          "hash": "+Dog2XzXrfbCY/YcMHKJ4w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServices.html",
+          "hash": "aKjOcPeDSvxZ3pqKs5djrg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesCore.CanHandleDynamicLinkInternal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesCore.CanHandleDynamicLinkInternal.html",
+          "hash": "ba+c4ooo7MKDHEQWpouI7w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesCore.DynamicLinkOpenInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesCore.DynamicLinkOpenInternalCallback.html",
+          "hash": "4K3GOPkS0gSX/9KRw19/yg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesCore.INativeDeepLinkServicesInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesCore.INativeDeepLinkServicesInterface.html",
+          "hash": "hKzMlVSKXL+ALqqDno43iA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesCore.NativeDeepLinkServicesInterfaceBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesCore.NativeDeepLinkServicesInterfaceBase.html",
+          "hash": "HPL20IPcjAGY8/ds6vhxvg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesCore.NullDeepLinkServicesInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesCore.NullDeepLinkServicesInterface.html",
+          "hash": "39Wl36pOwdqRcEimB+JKqg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesCore.html",
+          "hash": "2ub2ixZn8MVpkHMcgpeJeQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesDynamicLinkOpenResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesDynamicLinkOpenResult.html",
+          "hash": "V6ShGzDkSrw+kRAiONvvnw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesUnitySettings.AndroidPlatformProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesUnitySettings.AndroidPlatformProperties.html",
+          "hash": "EWmndmzRxgMuMAuADgLvcw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesUnitySettings.IosPlatformProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesUnitySettings.IosPlatformProperties.html",
+          "hash": "MXm46wm4TxuFB9HiAOz03w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesUnitySettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesUnitySettings.html",
+          "hash": "TFbx17OZ9dg2RrcL0r7W0Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.DefaultJsonServiceProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.DefaultJsonServiceProvider.html",
+          "hash": "MS5q4FnMW4qGIX8ypzVjxw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.DefaultSaveServiceProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.DefaultSaveServiceProvider.html",
+          "hash": "KEmnuLWLgvPEVWW0CSgu8g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.EssentialKitManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.EssentialKitManager.html",
+          "hash": "QC08CAXDfcIKHZsJ1W0Vcg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.EssentialKitSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.EssentialKitSettings.html",
+          "hash": "bR7VZuJ5oeAiChqeEOw29g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.ExternalServiceProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.ExternalServiceProvider.html",
+          "hash": "9sMQHNzHGj4Z12JtG2YSYg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.ExtrasCore.INativeUtilityInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.ExtrasCore.INativeUtilityInterface.html",
+          "hash": "GFxhqhhGizhwGwTNLPRplA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.ExtrasCore.NativeUtilityInterfaceBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.ExtrasCore.NativeUtilityInterfaceBase.html",
+          "hash": "BQFlaKVcLSMYre7Z1vJ9Aw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.ExtrasCore.NullNativeUtilityInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.ExtrasCore.NullNativeUtilityInterface.html",
+          "hash": "nOjJfRAiy3bb71IWb79JtQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.ExtrasCore.UtilityUnitySettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.ExtrasCore.UtilityUnitySettings.html",
+          "hash": "OxjvMmYoQaMnKqaWj5ZXNA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.ExtrasCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.ExtrasCore.html",
+          "hash": "SSBZg1/COR5LnszWe8miqA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GalleryAccessMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GalleryAccessMode.html",
+          "hash": "w8lHiX2lk2YpUkVkLNsjlg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GalleryAccessStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GalleryAccessStatus.html",
+          "hash": "SaU+dPKxx3o27d5P6UnCPw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServices.html",
+          "hash": "7Yd9txliIShT53y/aeO69w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesAuthStatusChangeResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesAuthStatusChangeResult.html",
+          "hash": "768Rctp4wujgLJNrz6XsLQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.AchievementBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.AchievementBase.html",
+          "hash": "EGeKAZer6O5SG1988PnaTg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.AchievementDescriptionBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.AchievementDescriptionBase.html",
+          "hash": "MvKs224XYCgFj/TGjFzXCQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.AuthChangeInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.AuthChangeInternalCallback.html",
+          "hash": "KYWvZoX2CgdoNeX5wiywRQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.INativeGameServicesInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.INativeGameServicesInterface.html",
+          "hash": "+8JEVCxmQdc5FYlbh7EdWA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.html",
+          "hash": "iu02yFXEs+JLCuX/OMusVQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LoadAchievementDescriptionsInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LoadAchievementDescriptionsInternalCallback.html",
+          "hash": "xTggZV7a86YZ/brVEuM5PA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LoadAchievementsInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LoadAchievementsInternalCallback.html",
+          "hash": "r91t8ArNi07BgKPxp/VJlw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LoadExternalAuthenticationCredentialsInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LoadExternalAuthenticationCredentialsInternalCallback.html",
+          "hash": "Sf0jRUx5PER36dPOERNO+w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LoadLeaderboardsInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LoadLeaderboardsInternalCallback.html",
+          "hash": "hiQBgaGcM9QSkrtDxB3FIw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LoadPlayersInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LoadPlayersInternalCallback.html",
+          "hash": "h+FC9iVjxYEiVmWe5eiOnw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LoadScoresInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LoadScoresInternalCallback.html",
+          "hash": "d+jQRLc8YZcjhNYZtd0xIQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LocalPlayerAuthChangeInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LocalPlayerAuthChangeInternalCallback.html",
+          "hash": "QV8KHhHKPPKySKEL5j4gKg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.NativeGameServicesInterfaceBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.NativeGameServicesInterfaceBase.html",
+          "hash": "QcMNBY2bnPc2mJaQsz1+Kg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.PlayerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.PlayerBase.html",
+          "hash": "6d5urF2r7r4oU+a9qpnWjA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.ReportAchievementProgressInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.ReportAchievementProgressInternalCallback.html",
+          "hash": "MKe8uA32Br2qdYxQL4D79Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.ReportScoreInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.ReportScoreInternalCallback.html",
+          "hash": "z9IU/zBGpw/Y127kV/1cNQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.ScoreBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.ScoreBase.html",
+          "hash": "k4fhdqoWTDFWy9TsccIIXg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.ViewClosedInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.ViewClosedInternalCallback.html",
+          "hash": "MdUqpPAJsl9rtPPWl1tzWQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.html",
+          "hash": "LBB6P3zymAf9rXqQaKJYdA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesLoadAchievementDescriptionsResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesLoadAchievementDescriptionsResult.html",
+          "hash": "U6Pj8/z/EXSCjROJ9nfGYw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesLoadAchievementsResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesLoadAchievementsResult.html",
+          "hash": "SDixMGB0MMGGZFkfenHAzA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesLoadExternalAuthenticationCredentialsResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesLoadExternalAuthenticationCredentialsResult.html",
+          "hash": "tlsgxbFsb4vUI0wDhsUKUw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesLoadLeaderboardsResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesLoadLeaderboardsResult.html",
+          "hash": "O45gv6XjkmDQYXg7WeZBIg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesLoadPlayersResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesLoadPlayersResult.html",
+          "hash": "unestpVsq3iK/Kje2plqvQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesUnitySettings.AndroidPlatformProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesUnitySettings.AndroidPlatformProperties.html",
+          "hash": "Dtz9t7Xmz5pmW3oQgHPccA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesUnitySettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesUnitySettings.html",
+          "hash": "nJYwLpABJtDtUv3TK42Hxg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesViewResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesViewResult.html",
+          "hash": "5/FlJ8DEZpFV65VOVsAf9A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesViewResultCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesViewResultCode.html",
+          "hash": "1/UjPlslk3KJUqFYvYfTow=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.IAchievement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.IAchievement.html",
+          "hash": "GxgiVuIQZ321Hnds8wU5vA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.IAchievementDescription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.IAchievementDescription.html",
+          "hash": "VmbzRhRH6LRB59N/KBN/Wg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.IAddressBookContact.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.IAddressBookContact.html",
+          "hash": "fzKAVXxEoZgHrUouI56N0A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.IAddressBookContactsEnumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.IAddressBookContactsEnumerator.html",
+          "hash": "NV62qX3n6JL13CyvDJb3NQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.IBillingPayment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.IBillingPayment.html",
+          "hash": "k6hlNeNL1vpiLKEOpbQrlw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.IBillingProduct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.IBillingProduct.html",
+          "hash": "QQcWGILoiM3W6ogR+5GmNQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.IBillingTransaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.IBillingTransaction.html",
+          "hash": "7vjosnQ9hU2AkEDI1DjB6g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.ICloudUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.ICloudUser.html",
+          "hash": "RgkhucMIZ+WK8irZLQB6xg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.IDeepLinkServicesDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.IDeepLinkServicesDelegate.html",
+          "hash": "AGWiZuQVjUZVhLbkhPIdRA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.IJsonServiceProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.IJsonServiceProvider.html",
+          "hash": "VoWG4R5wKceo6TQ2WLuP+A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.ILeaderboard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.ILeaderboard.html",
+          "hash": "s2e+nzeKWLbaogOfF3mJHA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.ILocalPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.ILocalPlayer.html",
+          "hash": "54BxUQaf8AH4w/UN60BZOQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.INotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.INotification.html",
+          "hash": "NIyMP5qWD23lPnqj4Hik7w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.INotificationTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.INotificationTrigger.html",
+          "hash": "w8MWwQyNy7V1Xk351jhf0g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.IPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.IPlayer.html",
+          "hash": "S+dW5hH2vF+W3ehGm2qo1A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.IRateMyAppController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.IRateMyAppController.html",
+          "hash": "VbwDccqjPjMoKP7p6TVL3Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.ISaveServiceProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.ISaveServiceProvider.html",
+          "hash": "CZ5NaaC2WE0tTcBlzMBt7g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.IScore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.IScore.html",
+          "hash": "daATBd2J/ye8FkoXjWAt2A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.IUnityUIDatePicker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.IUnityUIDatePicker.html",
+          "hash": "QbhGkquXdN3UJy0e0zApmQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.LeaderboardDefinition.AndroidPlatformProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.LeaderboardDefinition.AndroidPlatformProperties.html",
+          "hash": "3FWjkc7HbpWSjwVpLkD+fw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.LeaderboardDefinition.IosPlatformProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.LeaderboardDefinition.IosPlatformProperties.html",
+          "hash": "57IphvR+lSqaUm8d51hg/Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.LeaderboardDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.LeaderboardDefinition.html",
+          "hash": "U16J2oGZzCRUVVBiUYWQ4w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.LeaderboardLoadScoresResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.LeaderboardLoadScoresResult.html",
+          "hash": "zhFfkTFKob9tUd2iO5sk5Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.LeaderboardPlayerScope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.LeaderboardPlayerScope.html",
+          "hash": "yIxy1ZzlbwkKbr9kRgnOLA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.LeaderboardTimeScope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.LeaderboardTimeScope.html",
+          "hash": "FcAY3J4w9+6TNOffGWCUpQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.LoadImageInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.LoadImageInternalCallback.html",
+          "hash": "KOLQ1vcay7lfW1pO6H62Vw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.LocalPlayerAuthStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.LocalPlayerAuthStatus.html",
+          "hash": "GwISCybIP4C9aE5tKsgEcg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.LocationNotificationTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.LocationNotificationTrigger.html",
+          "hash": "NtASNIpxT312w6qVZwBcBA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.MailComposer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.MailComposer.html",
+          "hash": "k7/TwOmgfseeTvdsD+RhbA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.MailComposerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.MailComposerExtensions.html",
+          "hash": "DRRGA71SG02IvN4XsmtwjQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.MailComposerResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.MailComposerResult.html",
+          "hash": "u5eL5TrYbNtcgvcJzY7GpA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.MailComposerResultCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.MailComposerResultCode.html",
+          "hash": "IIIvNxd6xDIB4i5ArZ6LkQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.MediaServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.MediaServices.html",
+          "hash": "kbBBI5eaUL//hx2Wui55Kw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.INativeMediaServicesInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.INativeMediaServicesInterface.html",
+          "hash": "b0TAPqX1xoxG6ORIYt/eHQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.NativeMediaServicesInterfaceBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.NativeMediaServicesInterfaceBase.html",
+          "hash": "3y7PceWrUotg1XHEdFuung=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.RequestCameraAccessInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.RequestCameraAccessInternalCallback.html",
+          "hash": "IZuzIrLDIlCHvccDcunJ+Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.RequestGalleryAccessInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.RequestGalleryAccessInternalCallback.html",
+          "hash": "o25gpgzWxKDH2rY0eRC3mg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.SaveImageToGalleryInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.SaveImageToGalleryInternalCallback.html",
+          "hash": "IT/riDFB5RbKUUNqH1Inqw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.SelectImageInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.SelectImageInternalCallback.html",
+          "hash": "MfEddGNic43a8Z8hXCfqFQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.html",
+          "hash": "es6sl+cVBpVoWcMaFyIjnA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.MediaServicesRequestCameraAccessResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.MediaServicesRequestCameraAccessResult.html",
+          "hash": "OuoyWQDyoq8bbom303wlCg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.MediaServicesRequestGalleryAccessResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.MediaServicesRequestGalleryAccessResult.html",
+          "hash": "qGc3A8SBOCxrqmFZFrQNrw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.MediaServicesSaveImageToGalleryResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.MediaServicesSaveImageToGalleryResult.html",
+          "hash": "xOrf1i6wjuG1wjpge+awKw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.MediaServicesUnitySettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.MediaServicesUnitySettings.html",
+          "hash": "VEgpDycIoEyQcWRmihGupg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.MessageComposer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.MessageComposer.html",
+          "hash": "6G4PmMkuWHTR5AP39DdYsw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.MessageComposerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.MessageComposerExtensions.html",
+          "hash": "Vft08n8xtNUkWnjHkyaYGg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.MessageComposerResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.MessageComposerResult.html",
+          "hash": "IrvASCjQimqA9Ab2edg5kA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.MessageComposerResultCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.MessageComposerResultCode.html",
+          "hash": "EQE5NQ4njVNw4uGc/g6tVg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeFeatureType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NativeFeatureType.html",
+          "hash": "fiSg02qp5IdWSWL81jyRZA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeFeatureUsagePermissionSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NativeFeatureUsagePermissionSettings.html",
+          "hash": "Q71iXvFz5JrP/VG1tAvzeA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeFeatureUsagePermissionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NativeFeatureUsagePermissionType.html",
+          "hash": "ffjdhDFnt66FsXdEXhW7Bw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NativeUI.html",
+          "hash": "vxCBxROHxKDsYmbNL177Ag=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.AlertButtonClickInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.AlertButtonClickInternalCallback.html",
+          "hash": "pgAh+4S8pld7r2xoPgmjRw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.DatePickerClosedInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.DatePickerClosedInternalCallback.html",
+          "hash": "1zY4afvaDw6I4VKw2C841A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.INativeAlertDialogInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.INativeAlertDialogInterface.html",
+          "hash": "qNA2IIyQmkKd+Vfa7oWmlA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.INativeDatePickerInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.INativeDatePickerInterface.html",
+          "hash": "+pVTcgmoX/SDkw8ycJa9Vw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.INativeUIInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.INativeUIInterface.html",
+          "hash": "Ol6ibMMOYnAeuKe9ZRJ14A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.NativeAlertDialogInterfaceBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.NativeAlertDialogInterfaceBase.html",
+          "hash": "U5IiZdhC+HEdqiN5Fyc5WA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.NativeDatePickerInterfaceBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.NativeDatePickerInterfaceBase.html",
+          "hash": "+cNQjgZ1hsufjaiNiyKCng=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.NativeUIInterfaceBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.NativeUIInterfaceBase.html",
+          "hash": "KsHHX8qe9gEjm0J2z97hFQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.UnityUIAlertDialogInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.UnityUIAlertDialogInterface.html",
+          "hash": "4WwWxQ6tnMM4umM/0E6rFA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.UnityUIDatePicker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.UnityUIDatePicker.html",
+          "hash": "J56/7Rut3lZpUw0HHCLkfA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.UnityUIDatePickerInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.UnityUIDatePickerInterface.html",
+          "hash": "9P2vr90ffWA+NTDMkpOVog=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.UnityUIInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.UnityUIInterface.html",
+          "hash": "OxP2R2bDHr1PwYWYSsrGYA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.html",
+          "hash": "ozQNZMtPn5Qs3IV+UUNURg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUIUnitySettings.UnityUICollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NativeUIUnitySettings.UnityUICollection.html",
+          "hash": "HwveXHyW1NMaqM66RPaUQA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUIUnitySettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NativeUIUnitySettings.html",
+          "hash": "KnV8qICaUbELWlLVvyttqA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NetworkServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NetworkServices.html",
+          "hash": "ub9Wit6MK/OCdN81oTuRxQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesCore.HostReachabilityChangeInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesCore.HostReachabilityChangeInternalCallback.html",
+          "hash": "bm+k6jqZZ123lulwVYuXbQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesCore.INativeNetworkServicesInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesCore.INativeNetworkServicesInterface.html",
+          "hash": "K+u2mFGckgQAYA0rZgX7Cg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesCore.InternetConnectivityChangeInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesCore.InternetConnectivityChangeInternalCallback.html",
+          "hash": "QV2gUeIheEDdXfNhVcdKsA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesCore.NativeNetworkServicesInterfaceBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesCore.NativeNetworkServicesInterfaceBase.html",
+          "hash": "Lj4ZvOOYtsBIJUFQSSCbpQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesCore.html",
+          "hash": "EFmbIkzbL+PXbWh3EH3CkQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesHostReachabilityStatusChangeResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesHostReachabilityStatusChangeResult.html",
+          "hash": "WFjO57GOaKUVopyFs9dpzg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesInternetConnectivityStatusChangeResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesInternetConnectivityStatusChangeResult.html",
+          "hash": "Zt2v2oVkABWsu7B2VqT6gg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesUnitySettings.Address.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesUnitySettings.Address.html",
+          "hash": "DPwTdCCAdseDDg+ksxuEYQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesUnitySettings.PingTestSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesUnitySettings.PingTestSettings.html",
+          "hash": "7iTNE+1O5BDgq1qBJ1mT6A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesUnitySettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesUnitySettings.html",
+          "hash": "IQh8bj6/RnB1Vj6cJJNKYg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationAlertStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationAlertStyle.html",
+          "hash": "zcAv/QYUg1WgqtMjdsPwzg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationAndroidProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationAndroidProperties.html",
+          "hash": "UjMr5/ZAJtEN5kdVC5RGkA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationBuilder.html",
+          "hash": "VHOFsONv6Skve7uJE6t8uQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationIosProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationIosProperties.html",
+          "hash": "jWOb9pcTI7q6wj1O+amgfQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationPermissionOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationPermissionOptions.html",
+          "hash": "1KgkDwTquYhHEE+YaeYpYA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationPermissionStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationPermissionStatus.html",
+          "hash": "LBn/etRgldNEFX1KK5xgtw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationPresentationOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationPresentationOptions.html",
+          "hash": "DZ1fxBfoVaupoEB55V32YA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationPreviewStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationPreviewStyle.html",
+          "hash": "qajIIwB+aVPRuqvuRZQQ0g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServices.html",
+          "hash": "5D65F+9dgeMvvb8Z6RG+5g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.GetNotificationsInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.GetNotificationsInternalCallback.html",
+          "hash": "JOdEfK/J9wZ5bqnFs0MNLA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.GetSettingsInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.GetSettingsInternalCallback.html",
+          "hash": "+BwuKMfOJQzeZN+/uVNjuA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.IMutableNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.IMutableNotification.html",
+          "hash": "2FIRbVMwCHNXaeg8o3bFAA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.INativeNotificationCenterInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.INativeNotificationCenterInterface.html",
+          "hash": "YmnaIF0d5651cfL2N4/sgw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.NativeNotificationCenterInterfaceBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.NativeNotificationCenterInterfaceBase.html",
+          "hash": "H2D0qGT3dbJbE/G/fxCIcQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.NotificationBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.NotificationBase.html",
+          "hash": "xsnZoqA99m8++U7sX9be0g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.NotificationReceivedInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.NotificationReceivedInternalCallback.html",
+          "hash": "y94KOVbUDat8ekkvqxVdXw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.RegisterForPushNotificationsInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.RegisterForPushNotificationsInternalCallback.html",
+          "hash": "eM+gIjT+Ox7uCHz1YhprFw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.RequestPermissionInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.RequestPermissionInternalCallback.html",
+          "hash": "YkMfH3FfXpbfQZHuF4bSgw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.ScheduleNotificationInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.ScheduleNotificationInternalCallback.html",
+          "hash": "AibYfxFXTVJ+OU6rRsdeUQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.html",
+          "hash": "B4pi6pk2EUugQiJz/m3chg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesGetDeliveredNotificationsResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesGetDeliveredNotificationsResult.html",
+          "hash": "2Y1EtexXzDtGdeu//IGFIw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesGetScheduledNotificationsResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesGetScheduledNotificationsResult.html",
+          "hash": "rVdeYif5u11J5so5zK/8pg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesGetSettingsResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesGetSettingsResult.html",
+          "hash": "oUizAcQmh33qGeK9Dd0CqQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesNotificationReceivedResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesNotificationReceivedResult.html",
+          "hash": "JPQyua/tJJjI44aV2G5rzQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesRegisterForPushNotificationsResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesRegisterForPushNotificationsResult.html",
+          "hash": "KRbthYa+/3r1Dym9HLUhnA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesRequestPermissionResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesRequestPermissionResult.html",
+          "hash": "3N+wyHDpdcfstVDdnZR74A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.Keys.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.Keys.html",
+          "hash": "Ck1PedVq8kOKLZqGh2OShw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.html",
+          "hash": "zuySYwERtk6f5XHEXzclWg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesUnitySettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesUnitySettings.html",
+          "hash": "bg0TQfcf5uMUTv2pPQhFnA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationSettingStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationSettingStatus.html",
+          "hash": "E4WcMWz1pDIJ/POCYnZnsQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationSettings.html",
+          "hash": "HSQlQ24Bs4weUDtILmln6w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationSettingsInternal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationSettingsInternal.html",
+          "hash": "E0z3cGNREkETxunG0KGtnA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationTriggerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.NotificationTriggerType.html",
+          "hash": "qvf5EFKXdCGG+V89v8XIMQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.ProductResources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.ProductResources.html",
+          "hash": "NKM2ggkIDJ2YgocUngQlyQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.PushNotificationServiceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.PushNotificationServiceType.html",
+          "hash": "U18TlEOnsnbC9elsK4hpCA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.PushNotificationTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.PushNotificationTrigger.html",
+          "hash": "nelJcvK8oWFL/S4wxtUJtg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.RateMyApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.RateMyApp.html",
+          "hash": "w72DWgoZDq6mZBQuHTmDKQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.RateMyAppConfirmationDialogSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.RateMyAppConfirmationDialogSettings.html",
+          "hash": "0Jqc9xxbtLknW/F5CUGC+A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.RateMyAppDefaultController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.RateMyAppDefaultController.html",
+          "hash": "DslkO7CO3GCsIJBXKK2Dog=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.RateMyAppDefaultControllerSettings.PromptConstraints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.RateMyAppDefaultControllerSettings.PromptConstraints.html",
+          "hash": "kUF2OD3IDpeB4Qi6Z8rPWA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.RateMyAppDefaultControllerSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.RateMyAppDefaultControllerSettings.html",
+          "hash": "ge0xrcwdS+UjRE1e+DGcYw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.RateMyAppSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.RateMyAppSettings.html",
+          "hash": "PhbJPoM3Hbxslfqka1DVcA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.ShareItem.ShareItemType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.ShareItem.ShareItemType.html",
+          "hash": "5EtrgTjZru/urAIauiPIZA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.ShareItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.ShareItem.html",
+          "hash": "VXZbiskUYX/e2yC8Qu9jOg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.ShareSheet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.ShareSheet.html",
+          "hash": "JhkhzRg2oGHn89Sflbm5cA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.ShareSheetResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.ShareSheetResult.html",
+          "hash": "J7X7trA9hL0ijw22Rmv1GA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.ShareSheetResultCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.ShareSheetResultCode.html",
+          "hash": "hdQWysU5qhWpDHM0liYFoA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SharingServices.html",
+          "hash": "ZcwjUBmny7Qnb4kKZHDSMg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.INativeMailComposer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.INativeMailComposer.html",
+          "hash": "j8F8mlOMZ+3idf8NUiThLw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.INativeMessageComposer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.INativeMessageComposer.html",
+          "hash": "sQrJlgy3SzmWlG2TfCYD8A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.INativeShareSheet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.INativeShareSheet.html",
+          "hash": "zt1bBslFUelNiYcHdV97kA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.INativeSharingInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.INativeSharingInterface.html",
+          "hash": "y2APfuyfp8oviNhiamR5rg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.INativeSocialShareComposer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.INativeSocialShareComposer.html",
+          "hash": "L+jf5lhxULhOqDdfFAiaMw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.MailComposerClosedInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.MailComposerClosedInternalCallback.html",
+          "hash": "eyW7+ny+/mWKYeDOIAGdsQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.MessageComposerClosedInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.MessageComposerClosedInternalCallback.html",
+          "hash": "TamLra3cH121wUxfZnlHJA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NativeMailComposerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NativeMailComposerBase.html",
+          "hash": "t6ZI/Y4Q2UdnCXuogpmvzA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NativeMessageComposerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NativeMessageComposerBase.html",
+          "hash": "+xdZ4xBxnWtbeW+u+78hNA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NativeShareSheetBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NativeShareSheetBase.html",
+          "hash": "mOKkPGPWFm1mnkSc+dia6Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NativeSharingInterfaceBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NativeSharingInterfaceBase.html",
+          "hash": "5MNvGFpysjJ9s5qfbt80Ww=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NativeSocialShareComposerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NativeSocialShareComposerBase.html",
+          "hash": "grTlbKDw9ZFNLyKm4HJCBA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NullMailComposer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NullMailComposer.html",
+          "hash": "QGk+9rcAHna/xYEO2oVhFg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NullMessageComposer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NullMessageComposer.html",
+          "hash": "+SZsjIl+nbZqL3+VIQuUjw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NullShareSheet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NullShareSheet.html",
+          "hash": "Hwa55kUNN2qZkWEyNekaVA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NullSharingInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NullSharingInterface.html",
+          "hash": "v6niDNWBbaklFy1hbbpjkg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NullSocialShareComposer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NullSocialShareComposer.html",
+          "hash": "rm6A2APfBBpbiYQk8DMNmw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.ShareSheetClosedInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.ShareSheetClosedInternalCallback.html",
+          "hash": "ZxZBfIzqca9jKpa3ggPotw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.SocialShareComposerClosedInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.SocialShareComposerClosedInternalCallback.html",
+          "hash": "++nRJ5d1EDb9DYBu2+I2Uw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.html",
+          "hash": "AKpMO+r3kmDwlDOQzgUPUg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesUnitySettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesUnitySettings.html",
+          "hash": "SOOulAWihqTuWOPhhp75Kg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SocialShareComposer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SocialShareComposer.html",
+          "hash": "/LdVkH51xyseh02vH0c9BA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SocialShareComposerResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SocialShareComposerResult.html",
+          "hash": "VpE6okcT8ItH5OJZKUOnjA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SocialShareComposerResultCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SocialShareComposerResultCode.html",
+          "hash": "rQdxSXJP9Fna91BZRFUzDw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.SocialShareComposerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.SocialShareComposerType.html",
+          "hash": "Vp42P2E3gpfai+6t8w183g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.TimeIntervalNotificationTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.TimeIntervalNotificationTrigger.html",
+          "hash": "RGFQSG3k8ubXYTIb2GMojA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.Utilities.html",
+          "hash": "RO0EGSaMM1GCdYeJtHCEJg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.WebView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.WebView.html",
+          "hash": "Rg9nZIS43uR64/WZ/hanpw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.WebViewCore.INativeWebView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.WebViewCore.INativeWebView.html",
+          "hash": "iOiYgHvOonsAT5c0vB8Dcw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.WebViewCore.NativeWebViewBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.WebViewCore.NativeWebViewBase.html",
+          "hash": "N04G+Mqie0IL51pfTpr0XQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.WebViewCore.RunJavaScriptInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.WebViewCore.RunJavaScriptInternalCallback.html",
+          "hash": "5aK62vDxqgp5/ZBlmtJsLA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.WebViewCore.URLSchemeMatchFoundInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.WebViewCore.URLSchemeMatchFoundInternalCallback.html",
+          "hash": "54YkNEgi+fJoj944I/JhJQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.WebViewCore.WebViewInternalCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.WebViewCore.WebViewInternalCallback.html",
+          "hash": "v++sLeS6mknFW/pkBg2jgA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.WebViewCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.WebViewCore.html",
+          "hash": "/NLv2jSbWEAzbTj489IIMQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.WebViewExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.WebViewExtensions.html",
+          "hash": "f8DkoqNfSDb661bsmskxdw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.WebViewRunJavaScriptResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.WebViewRunJavaScriptResult.html",
+          "hash": "xIsRQIaElZbqedi6s5RyXg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.WebViewStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.WebViewStyle.html",
+          "hash": "QnFCldbC+WeZyPkbD8WCIg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.WebViewUnitySettings.AndroidPlatformProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.WebViewUnitySettings.AndroidPlatformProperties.html",
+          "hash": "+HVCz5ynjCNR7qRxfX929w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.WebViewUnitySettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.WebViewUnitySettings.html",
+          "hash": "QtBdGpNHcpJKbYRRdXaZMw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VoxelBusters.EssentialKit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VoxelBusters.EssentialKit.html",
+          "hash": "yxIMRLu3xigEc2WT16F/VA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "ll6VXGwXfJOZ8kIdU8lkqg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "ov3rjDSYcsXf6Gf+0DnAmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "vLRzfEG5J2XUFuYaLiYf7Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "yGZoQMg0xZtDPqXQ7x5VVg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "c6gUCXx7MYfRROLizFsyWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

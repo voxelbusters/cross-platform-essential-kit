@@ -1,0 +1,601 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MailComposer
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MailComposer
+   ">
+    <meta name="generator" content="docfx 2.40.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="VoxelBusters.EssentialKit.MailComposer">
+  
+  
+  <h1 id="VoxelBusters_EssentialKit_MailComposer" data-uid="VoxelBusters.EssentialKit.MailComposer" class="text-break">Class MailComposer
+  </h1>
+  <div class="markdown level0 summary"><p>The MailComposer class provides an interface to compose and send an email message.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">MailComposer</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="VoxelBusters.EssentialKit.html">VoxelBusters.EssentialKit</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="VoxelBusters_EssentialKit_MailComposer_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class MailComposer : NativeFeatureBehaviour</code></pre>
+  </div>
+  <h5 id="VoxelBusters_EssentialKit_MailComposer_examples"><strong>Examples</strong></h5>
+  <p>The following code example shows how to compose mail.</p>
+<pre><code>using UnityEngine;
+using System.Collections;
+using VoxelBusters.EssentialKit;
+
+public class ExampleClass : MonoBehaviour 
+{
+    public void Start()
+    {
+        if (MailComposer.CanSendMail())
+        {
+            // create new instance and populate fields
+            MailComposer    newComposer = MailComposer.CreateInstance();
+            newComposer.SetSubject(&quot;Example&quot;);
+            newComposer.SetBody(&quot;Lorem ipsum dolor sit amet&quot;);
+            newComposer.AddScreenshot(&quot;screenshot.jpg&quot;);
+            newComposer.SetCompletionCallback(OnMailComposerClosed);
+            newComposer.Show();
+        }
+        else
+        {
+            // device doesn&apos;t support sending emails
+        }
+    }
+
+    private void OnMailComposerClosed(MailComposerResult result, Error error)
+    {
+        // add your code
+    }
+}</code></pre>
+
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="VoxelBusters_EssentialKit_MailComposer_AddAttachment_" data-uid="VoxelBusters.EssentialKit.MailComposer.AddAttachment*"></a>
+  <h4 id="VoxelBusters_EssentialKit_MailComposer_AddAttachment_System_Byte___System_String_System_String_" data-uid="VoxelBusters.EssentialKit.MailComposer.AddAttachment(System.Byte[],System.String,System.String)">AddAttachment(Byte[], String, String)</h4>
+  <div class="markdown level1 summary"><p>Adds the specified data as an attachment of the email.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddAttachment(byte[] data, string mimeType, string fileName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The data of the file that has to be added as an attachment.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mimeType</span></td>
+        <td><p>The MIME type of the specified data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The filename of the specified data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_MailComposer_AddImage_" data-uid="VoxelBusters.EssentialKit.MailComposer.AddImage*"></a>
+  <h4 id="VoxelBusters_EssentialKit_MailComposer_AddImage_Texture2D_System_String_TextureEncodingFormat_" data-uid="VoxelBusters.EssentialKit.MailComposer.AddImage(Texture2D,System.String,TextureEncodingFormat)">AddImage(Texture2D, String, TextureEncodingFormat)</h4>
+  <div class="markdown level1 summary"><p>Adds specified image as an attachment of the email.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddImage(Texture2D image, string fileName, TextureEncodingFormat textureEncodingFormat = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Texture2D</span></td>
+        <td><span class="parametername">image</span></td>
+        <td><p>The image that has to be added as an attachment.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The preferred filename to associate with the image.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TextureEncodingFormat</span></td>
+        <td><span class="parametername">textureEncodingFormat</span></td>
+        <td><p>Texture encoding format.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_MailComposer_AddScreenshot_" data-uid="VoxelBusters.EssentialKit.MailComposer.AddScreenshot*"></a>
+  <h4 id="VoxelBusters_EssentialKit_MailComposer_AddScreenshot_System_String_" data-uid="VoxelBusters.EssentialKit.MailComposer.AddScreenshot(System.String)">AddScreenshot(String)</h4>
+  <div class="markdown level1 summary"><p>Captures a screenshot and adds it as an attachment of the email.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddScreenshot(string fileName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>The preferred filename to associate with the image.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_MailComposer_AwakeInternal_" data-uid="VoxelBusters.EssentialKit.MailComposer.AwakeInternal*"></a>
+  <h4 id="VoxelBusters_EssentialKit_MailComposer_AwakeInternal_System_Object___" data-uid="VoxelBusters.EssentialKit.MailComposer.AwakeInternal(System.Object[])">AwakeInternal(Object[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void AwakeInternal(object[] args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_MailComposer_CanSendMail_" data-uid="VoxelBusters.EssentialKit.MailComposer.CanSendMail*"></a>
+  <h4 id="VoxelBusters_EssentialKit_MailComposer_CanSendMail" data-uid="VoxelBusters.EssentialKit.MailComposer.CanSendMail">CanSendMail()</h4>
+  <div class="markdown level1 summary"><p>Returns a Boolean indicating whether the current device is able to send email.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool CanSendMail()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code>, if the device is configured for sending email, <code>false</code> otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_MailComposer_CreateInstance_" data-uid="VoxelBusters.EssentialKit.MailComposer.CreateInstance*"></a>
+  <h4 id="VoxelBusters_EssentialKit_MailComposer_CreateInstance" data-uid="VoxelBusters.EssentialKit.MailComposer.CreateInstance">CreateInstance()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="VoxelBusters.EssentialKit.MailComposer.html">MailComposer</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MailComposer CreateInstance()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VoxelBusters.EssentialKit.MailComposer.html">MailComposer</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_MailComposer_DestroyInternal_" data-uid="VoxelBusters.EssentialKit.MailComposer.DestroyInternal*"></a>
+  <h4 id="VoxelBusters_EssentialKit_MailComposer_DestroyInternal" data-uid="VoxelBusters.EssentialKit.MailComposer.DestroyInternal">DestroyInternal()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void DestroyInternal()</code></pre>
+  </div>
+  
+  
+  <a id="VoxelBusters_EssentialKit_MailComposer_GetFeatureName_" data-uid="VoxelBusters.EssentialKit.MailComposer.GetFeatureName*"></a>
+  <h4 id="VoxelBusters_EssentialKit_MailComposer_GetFeatureName" data-uid="VoxelBusters.EssentialKit.MailComposer.GetFeatureName">GetFeatureName()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override string GetFeatureName()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_MailComposer_IsAvailable_" data-uid="VoxelBusters.EssentialKit.MailComposer.IsAvailable*"></a>
+  <h4 id="VoxelBusters_EssentialKit_MailComposer_IsAvailable" data-uid="VoxelBusters.EssentialKit.MailComposer.IsAvailable">IsAvailable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsAvailable()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_MailComposer_SetBccRecipients_" data-uid="VoxelBusters.EssentialKit.MailComposer.SetBccRecipients*"></a>
+  <h4 id="VoxelBusters_EssentialKit_MailComposer_SetBccRecipients_System_String___" data-uid="VoxelBusters.EssentialKit.MailComposer.SetBccRecipients(System.String[])">SetBccRecipients(String[])</h4>
+  <div class="markdown level1 summary"><p>Sets the initial recipients to include in the email’s “Bcc” field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBccRecipients(params string[] values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>An array of string values, each of which contains the email address of a single recipient.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_MailComposer_SetBody_" data-uid="VoxelBusters.EssentialKit.MailComposer.SetBody*"></a>
+  <h4 id="VoxelBusters_EssentialKit_MailComposer_SetBody_System_String_System_Boolean_" data-uid="VoxelBusters.EssentialKit.MailComposer.SetBody(System.String,System.Boolean)">SetBody(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Sets the initial body text to include in the email.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBody(string value, bool isHtml = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The initial body text of the message. The text is interpreted as either plain text or HTML depending on the value of the isHTML parameter..</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isHtml</span></td>
+        <td><p>Specify YES if the body parameter contains HTML content or specify NO if it contains plain text.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_MailComposer_SetCcRecipients_" data-uid="VoxelBusters.EssentialKit.MailComposer.SetCcRecipients*"></a>
+  <h4 id="VoxelBusters_EssentialKit_MailComposer_SetCcRecipients_System_String___" data-uid="VoxelBusters.EssentialKit.MailComposer.SetCcRecipients(System.String[])">SetCcRecipients(String[])</h4>
+  <div class="markdown level1 summary"><p>Sets the initial recipients to include in the email’s “Cc” field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCcRecipients(params string[] values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>An array of string values, each of which contains the email address of a single recipient.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_MailComposer_SetCompletionCallback_" data-uid="VoxelBusters.EssentialKit.MailComposer.SetCompletionCallback*"></a>
+  <h4 id="VoxelBusters_EssentialKit_MailComposer_SetCompletionCallback_EventCallback_VoxelBusters_EssentialKit_MailComposerResult__" data-uid="VoxelBusters.EssentialKit.MailComposer.SetCompletionCallback(EventCallback{VoxelBusters.EssentialKit.MailComposerResult})">SetCompletionCallback(EventCallback&lt;MailComposerResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Specify the action to execute after the composer is dismissed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCompletionCallback(EventCallback&lt;MailComposerResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventCallback</span>&lt;<a class="xref" href="VoxelBusters.EssentialKit.MailComposerResult.html">MailComposerResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>The action to be called on completion.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_MailComposer_SetSubject_" data-uid="VoxelBusters.EssentialKit.MailComposer.SetSubject*"></a>
+  <h4 id="VoxelBusters_EssentialKit_MailComposer_SetSubject_System_String_" data-uid="VoxelBusters.EssentialKit.MailComposer.SetSubject(System.String)">SetSubject(String)</h4>
+  <div class="markdown level1 summary"><p>Sets the initial text for the subject line of the email.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSubject(string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The text to display in the subject line.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_MailComposer_SetToRecipients_" data-uid="VoxelBusters.EssentialKit.MailComposer.SetToRecipients*"></a>
+  <h4 id="VoxelBusters_EssentialKit_MailComposer_SetToRecipients_System_String___" data-uid="VoxelBusters.EssentialKit.MailComposer.SetToRecipients(System.String[])">SetToRecipients(String[])</h4>
+  <div class="markdown level1 summary"><p>Sets the initial recipients to include in the email’s “To” field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetToRecipients(params string[] values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>An array of string values, each of which contains the email address of a single recipient.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VoxelBusters_EssentialKit_MailComposer_Show_" data-uid="VoxelBusters.EssentialKit.MailComposer.Show*"></a>
+  <h4 id="VoxelBusters_EssentialKit_MailComposer_Show" data-uid="VoxelBusters.EssentialKit.MailComposer.Show">Show()</h4>
+  <div class="markdown level1 summary"><p>Shows the email composer interface with values initially set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Show()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
