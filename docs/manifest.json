@@ -4,15 +4,24 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
       "type": "ManagedReference",
       "source_relative_path": "api/VoxelBusters.EssentialKit.AchievementDefinition.AndroidPlatformProperties.yml",
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.AchievementDefinition.AndroidPlatformProperties.html",
-          "hash": "K4xkJD8I7q2d/6284F6GRA=="
+          "hash": "Z3W3Sb7vav+NfDHD/FI5DA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,10 +30,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.AchievementDefinition.IosPlatformProperties.html",
-          "hash": "0XF5jy+wZnORSvupS5EGtw=="
+          "hash": "o6cMbD7uxb6XGOMBHNc0og=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,10 +42,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.AchievementDefinition.html",
-          "hash": "bd/njQXu4++aBQRU29xX2Q=="
+          "hash": "zve53qWHnz/Laydwdbndhg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,10 +54,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.AddressBook.html",
-          "hash": "pTkZW+nBF0/c5cn95tfjdA=="
+          "hash": "BPj1AN9vf9UWHyWZ2TuN0w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,106 +66,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.AddressBookContactsAccessStatus.html",
-          "hash": "/2JmOHC6+krXb8gZTbne3A=="
+          "hash": "I6ZG6kcHiJCe/fkccz6Xrg=="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.AddressBookContactBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.AddressBookContactBase.html",
-          "hash": "zFuUZSB4e2LYXVg899UWmA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.GetContactsAccessStatusInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.GetContactsAccessStatusInternalCallback.html",
-          "hash": "MoaFHT8tTLYNU9UDNlMRVQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.INativeAddressBookInterface.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.INativeAddressBookInterface.html",
-          "hash": "hbOwRd1jRthk3744St3DaA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.NativeAddressBookContactData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.NativeAddressBookContactData.html",
-          "hash": "uGP2oh0ZkWjKGFc6mr9nMQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.NativeAddressBookInterfaceBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.NativeAddressBookInterfaceBase.html",
-          "hash": "kFJz1GKOrMp+I6Bk5orXHg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.ReadContactsInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.ReadContactsInternalCallback.html",
-          "hash": "Q/6E+ZGou49ZRk4JSsZy3g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.RequestContactsAccessInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.RequestContactsAccessInternalCallback.html",
-          "hash": "+TlUj3V74+0STG7qmGTL4A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.AddressBookCore.html",
-          "hash": "8diWzuzs2twLYvqHrRK9sw=="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -165,10 +78,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.AddressBookReadContactsResult.html",
-          "hash": "rE58EH94OSIXKcyBdCOwCg=="
+          "hash": "4PK3pKIJEjd2c9LKElV29g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -177,10 +90,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.AddressBookRequestContactsAccessResult.html",
-          "hash": "hFK+QgCnVywT61W9+n6EBQ=="
+          "hash": "a+0+z/PE0BRPiwku+q6gRA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -189,10 +102,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.AddressBookUnitySettings.html",
-          "hash": "XdNbsqcKSE97KWDApC13BQ=="
+          "hash": "7TxrHXngseR4BSIT/pkwag=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -201,10 +114,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.AlertDialog.html",
-          "hash": "z1FXijDPIRCfxCgEFdbS/w=="
+          "hash": "AdCKYQeZKX6vpv/sUjKn5g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -213,10 +126,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.AlertDialogBuilder.html",
-          "hash": "IqIjYsE1R4mmPVNjN/KQvQ=="
+          "hash": "AuvRuxltvnlbSB+SjQhWGg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -225,10 +138,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.AlertDialogStyle.html",
-          "hash": "sfb7AhoWWm/eoI01nMgE/A=="
+          "hash": "/CnEt+7kloWMRohjcgjG+A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -237,10 +150,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.ApplicationSettings.html",
-          "hash": "+zcu0aCbvRmgay6TdMKtCw=="
+          "hash": "Gx00X/EU2asta/R/SL+1KA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -249,10 +162,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.BillingBuyProductErrorCode.html",
-          "hash": "S3F5sQ9hOh08x7+9JgdRtA=="
+          "hash": "LwGh9WyPr3FQZ+sZIcWtdw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -261,10 +174,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.BillingErrorDomain.html",
-          "hash": "+CXTdNQtvpYBpEl5uxH3mw=="
+          "hash": "DJRocMBe1J9euUGa1TiV+g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -273,10 +186,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.BillingInitializeStoreErrorCode.html",
-          "hash": "xyNGSqbAjyPNkuWjw1udVQ=="
+          "hash": "ICj86now+7fBKewFbYP1pw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -285,10 +198,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.BillingProductDefinition.AndroidPlatformProperties.html",
-          "hash": "cP23lYxlUv5N0UbwxwEJ6Q=="
+          "hash": "CEj/nS6lqVMyDMXtj7X81g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -297,10 +210,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.BillingProductDefinition.IosPlatformProperties.html",
-          "hash": "3tTsVwifht6sb3j/DLjldw=="
+          "hash": "KK9MzPW+E3K8C2ulVAbdGw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -309,10 +222,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.BillingProductDefinition.html",
-          "hash": "pEVwukkr2IYKxq9HibGrIA=="
+          "hash": "h3p9vK0ZKzQyg8+nSm+jsQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -321,10 +234,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.BillingProductType.html",
-          "hash": "bn9DaRYcltzjTG15VNQOgg=="
+          "hash": "cRhCMAdKmzG9haDGcd4n5A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -333,10 +246,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.BillingReceiptVerificationState.html",
-          "hash": "41uzAWPdQNoqO987n8TXBA=="
+          "hash": "SVfOk7nyobGrO92GdZzSyQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -345,10 +258,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.BillingRestorePurchasesErrorCode.html",
-          "hash": "omX8Zi49hPwrz3d2WmbE+A=="
+          "hash": "dzLsn95nKMvOEBxTKEuYBQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -357,118 +270,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.BillingServices.html",
-          "hash": "nrXetzGATh0c10GtXulAoQ=="
+          "hash": "0H+b/U74xoW4t8kNm0GfMA=="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.BillingPayment.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.BillingPayment.html",
-          "hash": "OOM7WPYGQrPhDBrJcLCTww=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.BillingProductBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.BillingProductBase.html",
-          "hash": "KX+Ryews/GwCEnV3zoppcQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.html",
-          "hash": "q/gNEB04CL0hWdAdc98Ytw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.INativeBillingServicesInterface.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.INativeBillingServicesInterface.html",
-          "hash": "KLKctWgPjqR1Wu1jEsZ8pQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.NativeBillingServicesInterfaceBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.NativeBillingServicesInterfaceBase.html",
-          "hash": "lss/acmxT6R+ZjEITI4BtA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.PaymentStateChangeInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.PaymentStateChangeInternalCallback.html",
-          "hash": "XU3hdIrfVlnXxxnWwygAog=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.RestorePurchasesInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.RestorePurchasesInternalCallback.html",
-          "hash": "GgXb3yIvXmEBy9WA84ceIQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.RetrieveProductsInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.RetrieveProductsInternalCallback.html",
-          "hash": "zc9GXPzZ05S4PxecOD2/Dg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesCore.html",
-          "hash": "afg+eINwpIqtixkx+mM0pQ=="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -477,10 +282,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesInitializeStoreResult.html",
-          "hash": "h2nE+ySysTpLTRxjtHpzhA=="
+          "hash": "dKZcoLpqMn9KKiFCxVHR9g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -489,10 +294,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesRestorePurchasesResult.html",
-          "hash": "A4YTrexcEDWxx0+B0uH/EQ=="
+          "hash": "iRHoSYgakFkBZviwUAqCdg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -501,10 +306,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesTransactionStateChangeResult.html",
-          "hash": "ms6plw++p1BNQ9+ORpaeJA=="
+          "hash": "832E4NJ0JY1j6FqN8QH5Hg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -513,10 +318,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesUnitySettings.AndroidPlatformProperties.html",
-          "hash": "7NMF2beGCrwZJOHzT5n7rw=="
+          "hash": "0sTOJxONDh5hJiA28kDGJA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -525,10 +330,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesUnitySettings.IosPlatformProperties.html",
-          "hash": "9xpdZSaUYJljmribGb8daA=="
+          "hash": "QHLMaBhTifqsXBAJrY/1sg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -537,10 +342,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.BillingServicesUnitySettings.html",
-          "hash": "k4qOSIeKjP219rQZ9fuPag=="
+          "hash": "7XKKDGq4XquuklQA0VIFPQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -549,10 +354,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.BillingTransactionState.html",
-          "hash": "dTlqap+i3s+8IvIrjGNgLQ=="
+          "hash": "hvWj2M5rNB8zOF187XqjZQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -561,10 +366,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.CalendarNotificationTrigger.html",
-          "hash": "tnWJ8NTZhKOlIusmIQ1bBA=="
+          "hash": "YWmzW8aW/ASd9kAdGKflsQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -573,10 +378,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.CameraAccessStatus.html",
-          "hash": "NJqsZDs3yqAKDSw3ldNVFA=="
+          "hash": "DYlSKWY9E9lDef39jkmZPw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -585,10 +390,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.CloudSavedDataChangeReasonCode.html",
-          "hash": "XbFjTAjCPGI3NDavAHNNVQ=="
+          "hash": "9I7DztMHN/0OwMNjyIeQRw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -597,106 +402,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.CloudServices.html",
-          "hash": "2rLZ+wko2qaxUm3VwgQxDg=="
+          "hash": "IPogPhm5VQFAqKR48KhotQ=="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.CloudUser.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.CloudUser.html",
-          "hash": "+ZoO6hU51SU62FwWb7eTZQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.INativeCloudServicesInterface.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.INativeCloudServicesInterface.html",
-          "hash": "qBb2WrIpErdRQ+YP9gjcfg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.NativeCloudServicesInterfaceBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.NativeCloudServicesInterfaceBase.html",
-          "hash": "6FBhKWGrnnY3jj2qS1uFdQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.NullCloudServicesInterface.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.NullCloudServicesInterface.html",
-          "hash": "wBFjkTk83QjO40CCSH9lIw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.SavedDataChangeInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.SavedDataChangeInternalCallback.html",
-          "hash": "43EqDpRAYEbNQM0VsiYvSw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.SynchronizeInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.SynchronizeInternalCallback.html",
-          "hash": "j2JUsoKXtPMeX+Nre72Xag=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.UserChangeInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.UserChangeInternalCallback.html",
-          "hash": "a1Tl0PLSexEt93KdahNKmg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.CloudServicesCore.html",
-          "hash": "0vnqavmrgZuuSN/XWc0ZIw=="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -705,10 +414,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.CloudServicesSavedDataChangeResult.html",
-          "hash": "jOhnDdLrkxhkaqg/uKMxtA=="
+          "hash": "qi9KgIGZbsihQOeyEsfc/g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -717,10 +426,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.CloudServicesSynchronizeResult.html",
-          "hash": "DryndVo0zoRbXCuHGtBkCw=="
+          "hash": "z1zQx0xY5tOYC3NfaNXUcg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -729,10 +438,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.CloudServicesUnitySettings.html",
-          "hash": "A7lWTlqNOwM89RO2ZSNBhQ=="
+          "hash": "OrIO6whBE23RvAMrgQLHqQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -741,10 +450,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.CloudServicesUserChangeResult.html",
-          "hash": "5V3oyGbQL46PbGqvNbqmnQ=="
+          "hash": "YZQEL1/R3No3dtDfhNqicw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -753,10 +462,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.CloudUserAccountStatus.html",
-          "hash": "K1Gs7lBJ87N0IbIMfNMDWA=="
+          "hash": "MZPhY5NEojQDSF8dV+h1wg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -765,10 +474,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.DatePicker.ValueChangeCallback.html",
-          "hash": "Lo/37T7KQraeEUykdEEeRA=="
+          "hash": "2ZjjJlzS2p2meO+pBR5FBQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -777,10 +486,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.DatePicker.html",
-          "hash": "l434HkWpjn/uBr60j98zcw=="
+          "hash": "kKJC4ciuQKWmZgy28JxyPQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -789,10 +498,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.DatePickerMode.html",
-          "hash": "77LnEIf9y430UpYI06HeWA=="
+          "hash": "uJz8+ODuuf/w1trN9hNrdA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -801,10 +510,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.DatePickerResult.html",
-          "hash": "+al0VsihB5qDO6ItaZBRAA=="
+          "hash": "ZXkWspbrKj22BMkmG7KfwA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -813,10 +522,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.DeepLinkDefinition.html",
-          "hash": "+Dog2XzXrfbCY/YcMHKJ4w=="
+          "hash": "ykfmumjo0Rgm58XZSOWIBQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -825,82 +534,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServices.html",
-          "hash": "aKjOcPeDSvxZ3pqKs5djrg=="
+          "hash": "o++rC+bmTSMjF6ubvG0qcw=="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesCore.CanHandleDynamicLinkInternal.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesCore.CanHandleDynamicLinkInternal.html",
-          "hash": "ba+c4ooo7MKDHEQWpouI7w=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesCore.DynamicLinkOpenInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesCore.DynamicLinkOpenInternalCallback.html",
-          "hash": "4K3GOPkS0gSX/9KRw19/yg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesCore.INativeDeepLinkServicesInterface.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesCore.INativeDeepLinkServicesInterface.html",
-          "hash": "hKzMlVSKXL+ALqqDno43iA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesCore.NativeDeepLinkServicesInterfaceBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesCore.NativeDeepLinkServicesInterfaceBase.html",
-          "hash": "HPL20IPcjAGY8/ds6vhxvg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesCore.NullDeepLinkServicesInterface.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesCore.NullDeepLinkServicesInterface.html",
-          "hash": "39Wl36pOwdqRcEimB+JKqg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesCore.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesCore.html",
-          "hash": "2ub2ixZn8MVpkHMcgpeJeQ=="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -909,10 +546,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesDynamicLinkOpenResult.html",
-          "hash": "V6ShGzDkSrw+kRAiONvvnw=="
+          "hash": "pdmV2Aw8+jKvaE7PFgrTrQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -921,10 +558,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesUnitySettings.AndroidPlatformProperties.html",
-          "hash": "EWmndmzRxgMuMAuADgLvcw=="
+          "hash": "rxpIkldAKhZ7uHf3G2zAPA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -933,10 +570,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesUnitySettings.IosPlatformProperties.html",
-          "hash": "MXm46wm4TxuFB9HiAOz03w=="
+          "hash": "v8dSktBcRZMYcNF38svH9A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -945,10 +582,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.DeepLinkServicesUnitySettings.html",
-          "hash": "TFbx17OZ9dg2RrcL0r7W0Q=="
+          "hash": "oS7S/j51wPAzs0rQ2WWErw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -957,10 +594,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.DefaultJsonServiceProvider.html",
-          "hash": "MS5q4FnMW4qGIX8ypzVjxw=="
+          "hash": "Ay/AcS6n6sO43dZRdf7MDA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -969,10 +606,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.DefaultSaveServiceProvider.html",
-          "hash": "KEmnuLWLgvPEVWW0CSgu8g=="
+          "hash": "tG86f4VxIgitwXxAelFMrg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -981,10 +618,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.EssentialKitManager.html",
-          "hash": "QC08CAXDfcIKHZsJ1W0Vcg=="
+          "hash": "mazoF1NEpeaGPhw/c85jbw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -993,10 +630,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.EssentialKitSettings.html",
-          "hash": "bR7VZuJ5oeAiChqeEOw29g=="
+          "hash": "trbUUNEY47Dt22FiKmK05g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1005,70 +642,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.ExternalServiceProvider.html",
-          "hash": "9sMQHNzHGj4Z12JtG2YSYg=="
+          "hash": "hJHbXMsywrniMtEUVAtpcw=="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.ExtrasCore.INativeUtilityInterface.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.ExtrasCore.INativeUtilityInterface.html",
-          "hash": "GFxhqhhGizhwGwTNLPRplA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.ExtrasCore.NativeUtilityInterfaceBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.ExtrasCore.NativeUtilityInterfaceBase.html",
-          "hash": "BQFlaKVcLSMYre7Z1vJ9Aw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.ExtrasCore.NullNativeUtilityInterface.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.ExtrasCore.NullNativeUtilityInterface.html",
-          "hash": "nOjJfRAiy3bb71IWb79JtQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.ExtrasCore.UtilityUnitySettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.ExtrasCore.UtilityUnitySettings.html",
-          "hash": "OxjvMmYoQaMnKqaWj5ZXNA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.ExtrasCore.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.ExtrasCore.html",
-          "hash": "SSBZg1/COR5LnszWe8miqA=="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1077,10 +654,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.GalleryAccessMode.html",
-          "hash": "w8lHiX2lk2YpUkVkLNsjlg=="
+          "hash": "jAaVqyIEdAywy4M41urC0w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1089,10 +666,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.GalleryAccessStatus.html",
-          "hash": "SaU+dPKxx3o27d5P6UnCPw=="
+          "hash": "drR5Ff0AuWqz/UaPZahihg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1101,10 +678,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.GameServices.html",
-          "hash": "7Yd9txliIShT53y/aeO69w=="
+          "hash": "YJToarIw7kFmHJkDH1hFGQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1113,238 +690,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.GameServicesAuthStatusChangeResult.html",
-          "hash": "768Rctp4wujgLJNrz6XsLQ=="
+          "hash": "ulE883LHaVl/KbXFVP91aw=="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.AchievementBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.AchievementBase.html",
-          "hash": "EGeKAZer6O5SG1988PnaTg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.AchievementDescriptionBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.AchievementDescriptionBase.html",
-          "hash": "MvKs224XYCgFj/TGjFzXCQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.AuthChangeInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.AuthChangeInternalCallback.html",
-          "hash": "KYWvZoX2CgdoNeX5wiywRQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.INativeGameServicesInterface.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.INativeGameServicesInterface.html",
-          "hash": "+8JEVCxmQdc5FYlbh7EdWA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.html",
-          "hash": "iu02yFXEs+JLCuX/OMusVQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LoadAchievementDescriptionsInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LoadAchievementDescriptionsInternalCallback.html",
-          "hash": "xTggZV7a86YZ/brVEuM5PA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LoadAchievementsInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LoadAchievementsInternalCallback.html",
-          "hash": "r91t8ArNi07BgKPxp/VJlw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LoadExternalAuthenticationCredentialsInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LoadExternalAuthenticationCredentialsInternalCallback.html",
-          "hash": "Sf0jRUx5PER36dPOERNO+w=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LoadLeaderboardsInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LoadLeaderboardsInternalCallback.html",
-          "hash": "hiQBgaGcM9QSkrtDxB3FIw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LoadPlayersInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LoadPlayersInternalCallback.html",
-          "hash": "h+FC9iVjxYEiVmWe5eiOnw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LoadScoresInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LoadScoresInternalCallback.html",
-          "hash": "d+jQRLc8YZcjhNYZtd0xIQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LocalPlayerAuthChangeInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.LocalPlayerAuthChangeInternalCallback.html",
-          "hash": "QV8KHhHKPPKySKEL5j4gKg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.NativeGameServicesInterfaceBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.NativeGameServicesInterfaceBase.html",
-          "hash": "QcMNBY2bnPc2mJaQsz1+Kg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.PlayerBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.PlayerBase.html",
-          "hash": "6d5urF2r7r4oU+a9qpnWjA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.ReportAchievementProgressInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.ReportAchievementProgressInternalCallback.html",
-          "hash": "MKe8uA32Br2qdYxQL4D79Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.ReportScoreInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.ReportScoreInternalCallback.html",
-          "hash": "z9IU/zBGpw/Y127kV/1cNQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.ScoreBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.ScoreBase.html",
-          "hash": "k4fhdqoWTDFWy9TsccIIXg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.ViewClosedInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.ViewClosedInternalCallback.html",
-          "hash": "MdUqpPAJsl9rtPPWl1tzWQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.GameServicesCore.html",
-          "hash": "LBB6P3zymAf9rXqQaKJYdA=="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1353,10 +702,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.GameServicesLoadAchievementDescriptionsResult.html",
-          "hash": "U6Pj8/z/EXSCjROJ9nfGYw=="
+          "hash": "XDSpocGm5St1Za0jRCXzBQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1365,10 +714,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.GameServicesLoadAchievementsResult.html",
-          "hash": "SDixMGB0MMGGZFkfenHAzA=="
+          "hash": "m6XBQ3AD8dJTQhxcfcY8Wg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1377,10 +726,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.GameServicesLoadExternalAuthenticationCredentialsResult.html",
-          "hash": "tlsgxbFsb4vUI0wDhsUKUw=="
+          "hash": "gSQUJLk7zkENlRBd5b5lhA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1389,10 +738,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.GameServicesLoadLeaderboardsResult.html",
-          "hash": "O45gv6XjkmDQYXg7WeZBIg=="
+          "hash": "0C0sAe4vP3WEclsOiD+F7w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1401,10 +750,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.GameServicesLoadPlayersResult.html",
-          "hash": "unestpVsq3iK/Kje2plqvQ=="
+          "hash": "zP6aq43UPTsEH1jNlXCi/A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1413,10 +762,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.GameServicesUnitySettings.AndroidPlatformProperties.html",
-          "hash": "Dtz9t7Xmz5pmW3oQgHPccA=="
+          "hash": "kbt8tBytDLCRcwFHmLtxmQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1425,10 +774,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.GameServicesUnitySettings.html",
-          "hash": "nJYwLpABJtDtUv3TK42Hxg=="
+          "hash": "y/smAB+8J4gNeDBkypgVZQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1437,10 +786,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.GameServicesViewResult.html",
-          "hash": "5/FlJ8DEZpFV65VOVsAf9A=="
+          "hash": "XUyTDd2krC6MI8AyT3vmUw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1449,10 +798,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.GameServicesViewResultCode.html",
-          "hash": "1/UjPlslk3KJUqFYvYfTow=="
+          "hash": "kP+cbBPvcJytz2uKruiKNA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1461,10 +810,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.IAchievement.html",
-          "hash": "GxgiVuIQZ321Hnds8wU5vA=="
+          "hash": "EFl+vU7vtMpLxI5SAvYRow=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1473,10 +822,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.IAchievementDescription.html",
-          "hash": "VmbzRhRH6LRB59N/KBN/Wg=="
+          "hash": "UWK0udKgfv9XizUkl0D5ZQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1485,10 +834,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.IAddressBookContact.html",
-          "hash": "fzKAVXxEoZgHrUouI56N0A=="
+          "hash": "HWGMPCGqmWgpPptQ4Yd15A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1497,10 +846,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.IAddressBookContactsEnumerator.html",
-          "hash": "NV62qX3n6JL13CyvDJb3NQ=="
+          "hash": "EVBOQTlaJ/TPwgjZPLV8hw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1509,10 +858,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.IBillingPayment.html",
-          "hash": "k6hlNeNL1vpiLKEOpbQrlw=="
+          "hash": "aGvgVR0PBGD1lG5JdVm73g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1521,10 +870,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.IBillingProduct.html",
-          "hash": "QQcWGILoiM3W6ogR+5GmNQ=="
+          "hash": "fg9P2ZZYuD2NMrbEAUsNjw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1533,10 +882,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.IBillingTransaction.html",
-          "hash": "7vjosnQ9hU2AkEDI1DjB6g=="
+          "hash": "1En+W0s4XSekaAsTiLYBlA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1545,10 +894,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.ICloudUser.html",
-          "hash": "RgkhucMIZ+WK8irZLQB6xg=="
+          "hash": "YxfQr7JnrbMmAxTo3H9hDg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1557,10 +906,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.IDeepLinkServicesDelegate.html",
-          "hash": "AGWiZuQVjUZVhLbkhPIdRA=="
+          "hash": "/nl2UlmPqHPl1FcEB/6cIQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1569,10 +918,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.IJsonServiceProvider.html",
-          "hash": "VoWG4R5wKceo6TQ2WLuP+A=="
+          "hash": "HxTCI94cOz21dJqoxlguqA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1581,10 +930,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.ILeaderboard.html",
-          "hash": "s2e+nzeKWLbaogOfF3mJHA=="
+          "hash": "GwRek4O+U2z3AicYV6hk5Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1593,10 +942,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.ILocalPlayer.html",
-          "hash": "54BxUQaf8AH4w/UN60BZOQ=="
+          "hash": "n29bSFXoVG21I8qXB/vf1w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1605,10 +954,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.INotification.html",
-          "hash": "NIyMP5qWD23lPnqj4Hik7w=="
+          "hash": "MBX2lpC+i3BuLw0O0zl86Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1617,10 +966,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.INotificationTrigger.html",
-          "hash": "w8MWwQyNy7V1Xk351jhf0g=="
+          "hash": "rADcK0nxVfpw1kWdc3vKnw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1629,10 +978,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.IPlayer.html",
-          "hash": "S+dW5hH2vF+W3ehGm2qo1A=="
+          "hash": "rJiD8wTaBMh91bFGMlS2cA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1641,10 +990,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.IRateMyAppController.html",
-          "hash": "VbwDccqjPjMoKP7p6TVL3Q=="
+          "hash": "kAk1cKTIgfkIpFv4vUHI9g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1653,10 +1002,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.ISaveServiceProvider.html",
-          "hash": "CZ5NaaC2WE0tTcBlzMBt7g=="
+          "hash": "L2agjvr8yyGUWKsueTESUA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1665,10 +1014,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.IScore.html",
-          "hash": "daATBd2J/ye8FkoXjWAt2A=="
+          "hash": "fV/pwEQCfIyWOI7EguFw/A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1677,10 +1026,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.IUnityUIDatePicker.html",
-          "hash": "QbhGkquXdN3UJy0e0zApmQ=="
+          "hash": "TIkkaOvorV7aZXXmJyVxOA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1689,10 +1038,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.LeaderboardDefinition.AndroidPlatformProperties.html",
-          "hash": "3FWjkc7HbpWSjwVpLkD+fw=="
+          "hash": "HuwEjKtHDHTK2egug4nVMg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1701,10 +1050,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.LeaderboardDefinition.IosPlatformProperties.html",
-          "hash": "57IphvR+lSqaUm8d51hg/Q=="
+          "hash": "PMGHhcO35ZL4PrXUg12r1g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1713,10 +1062,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.LeaderboardDefinition.html",
-          "hash": "U16J2oGZzCRUVVBiUYWQ4w=="
+          "hash": "+9h5KhJMxKQD6gNSHlVl2g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1725,10 +1074,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.LeaderboardLoadScoresResult.html",
-          "hash": "zhFfkTFKob9tUd2iO5sk5Q=="
+          "hash": "1dvuI3at7viRiNDFfRRgIA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1737,10 +1086,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.LeaderboardPlayerScope.html",
-          "hash": "yIxy1ZzlbwkKbr9kRgnOLA=="
+          "hash": "5Y+49neNL1ALsOCMRmsL0A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1749,10 +1098,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.LeaderboardTimeScope.html",
-          "hash": "FcAY3J4w9+6TNOffGWCUpQ=="
+          "hash": "OoLUoaaBSbmI9+nJKom4gQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1761,10 +1110,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.LoadImageInternalCallback.html",
-          "hash": "KOLQ1vcay7lfW1pO6H62Vw=="
+          "hash": "9ezfRZ5bZKCZPZuTmDsiqg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1773,10 +1122,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.LocalPlayerAuthStatus.html",
-          "hash": "GwISCybIP4C9aE5tKsgEcg=="
+          "hash": "sS3yRffx27jf8Bsi40htLg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1785,10 +1134,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.LocationNotificationTrigger.html",
-          "hash": "NtASNIpxT312w6qVZwBcBA=="
+          "hash": "1X4K4B8lqAkj99WapRKRLw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1797,10 +1146,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.MailComposer.html",
-          "hash": "k7/TwOmgfseeTvdsD+RhbA=="
+          "hash": "9uhOzAnmSNZhfJxhT5b8Gg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1809,10 +1158,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.MailComposerExtensions.html",
-          "hash": "DRRGA71SG02IvN4XsmtwjQ=="
+          "hash": "2Gy2C5N4vueRWp0rDqzYsw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1821,10 +1170,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.MailComposerResult.html",
-          "hash": "u5eL5TrYbNtcgvcJzY7GpA=="
+          "hash": "oavV44ijpoF7iyQNeMTxXw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1833,10 +1182,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.MailComposerResultCode.html",
-          "hash": "IIIvNxd6xDIB4i5ArZ6LkQ=="
+          "hash": "tNyxwX6VDnSDjDKreFRsbA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1845,94 +1194,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.MediaServices.html",
-          "hash": "kbBBI5eaUL//hx2Wui55Kw=="
+          "hash": "/q1ZPt9z4f1zLDDmdmTpVQ=="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.INativeMediaServicesInterface.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.INativeMediaServicesInterface.html",
-          "hash": "b0TAPqX1xoxG6ORIYt/eHQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.NativeMediaServicesInterfaceBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.NativeMediaServicesInterfaceBase.html",
-          "hash": "3y7PceWrUotg1XHEdFuung=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.RequestCameraAccessInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.RequestCameraAccessInternalCallback.html",
-          "hash": "IZuzIrLDIlCHvccDcunJ+Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.RequestGalleryAccessInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.RequestGalleryAccessInternalCallback.html",
-          "hash": "o25gpgzWxKDH2rY0eRC3mg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.SaveImageToGalleryInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.SaveImageToGalleryInternalCallback.html",
-          "hash": "IT/riDFB5RbKUUNqH1Inqw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.SelectImageInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.SelectImageInternalCallback.html",
-          "hash": "MfEddGNic43a8Z8hXCfqFQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.MediaServicesCore.html",
-          "hash": "es6sl+cVBpVoWcMaFyIjnA=="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1941,10 +1206,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.MediaServicesRequestCameraAccessResult.html",
-          "hash": "OuoyWQDyoq8bbom303wlCg=="
+          "hash": "ykWATVPUkFwIbs8Mw7Tz9g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1953,10 +1218,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.MediaServicesRequestGalleryAccessResult.html",
-          "hash": "qGc3A8SBOCxrqmFZFrQNrw=="
+          "hash": "27AW0XVK7ZFJfwuLAEtvVw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1965,10 +1230,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.MediaServicesSaveImageToGalleryResult.html",
-          "hash": "xOrf1i6wjuG1wjpge+awKw=="
+          "hash": "OdNjyOSLyJBEmEDLqN5gJQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1977,10 +1242,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.MediaServicesUnitySettings.html",
-          "hash": "VEgpDycIoEyQcWRmihGupg=="
+          "hash": "9bbs85NmhlkhV2XWcW4LuA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1989,10 +1254,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.MessageComposer.html",
-          "hash": "6G4PmMkuWHTR5AP39DdYsw=="
+          "hash": "UNQi8ilBBbsT5jHV8MX72w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2001,10 +1266,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.MessageComposerExtensions.html",
-          "hash": "Vft08n8xtNUkWnjHkyaYGg=="
+          "hash": "sakAEW9XwEj6SEirRiqEVQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2013,10 +1278,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.MessageComposerResult.html",
-          "hash": "IrvASCjQimqA9Ab2edg5kA=="
+          "hash": "Tir9OIJYmAprEwUOE3WF5Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2025,10 +1290,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.MessageComposerResultCode.html",
-          "hash": "EQE5NQ4njVNw4uGc/g6tVg=="
+          "hash": "H91cuImDhvAx5WKhRBhlgg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2037,10 +1302,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NativeFeatureType.html",
-          "hash": "fiSg02qp5IdWSWL81jyRZA=="
+          "hash": "8z3bq3xwREE62jlTHnR8Vg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2049,10 +1314,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NativeFeatureUsagePermissionSettings.html",
-          "hash": "Q71iXvFz5JrP/VG1tAvzeA=="
+          "hash": "wjmMfsirf1YDwMMLeNS44Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2061,10 +1326,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NativeFeatureUsagePermissionType.html",
-          "hash": "ffjdhDFnt66FsXdEXhW7Bw=="
+          "hash": "OorOfRtZiIhCZ2uIQGSG1w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2073,166 +1338,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NativeUI.html",
-          "hash": "vxCBxROHxKDsYmbNL177Ag=="
+          "hash": "zf9lC+tMU8rZWc0UUXUO6g=="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.AlertButtonClickInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.AlertButtonClickInternalCallback.html",
-          "hash": "pgAh+4S8pld7r2xoPgmjRw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.DatePickerClosedInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.DatePickerClosedInternalCallback.html",
-          "hash": "1zY4afvaDw6I4VKw2C841A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.INativeAlertDialogInterface.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.INativeAlertDialogInterface.html",
-          "hash": "qNA2IIyQmkKd+Vfa7oWmlA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.INativeDatePickerInterface.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.INativeDatePickerInterface.html",
-          "hash": "+pVTcgmoX/SDkw8ycJa9Vw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.INativeUIInterface.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.INativeUIInterface.html",
-          "hash": "Ol6ibMMOYnAeuKe9ZRJ14A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.NativeAlertDialogInterfaceBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.NativeAlertDialogInterfaceBase.html",
-          "hash": "U5IiZdhC+HEdqiN5Fyc5WA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.NativeDatePickerInterfaceBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.NativeDatePickerInterfaceBase.html",
-          "hash": "+cNQjgZ1hsufjaiNiyKCng=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.NativeUIInterfaceBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.NativeUIInterfaceBase.html",
-          "hash": "KsHHX8qe9gEjm0J2z97hFQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.UnityUIAlertDialogInterface.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.UnityUIAlertDialogInterface.html",
-          "hash": "4WwWxQ6tnMM4umM/0E6rFA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.UnityUIDatePicker.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.UnityUIDatePicker.html",
-          "hash": "J56/7Rut3lZpUw0HHCLkfA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.UnityUIDatePickerInterface.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.UnityUIDatePickerInterface.html",
-          "hash": "9P2vr90ffWA+NTDMkpOVog=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.UnityUIInterface.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.UnityUIInterface.html",
-          "hash": "OxP2R2bDHr1PwYWYSsrGYA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NativeUICore.html",
-          "hash": "ozQNZMtPn5Qs3IV+UUNURg=="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2241,10 +1350,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NativeUIUnitySettings.UnityUICollection.html",
-          "hash": "HwveXHyW1NMaqM66RPaUQA=="
+          "hash": "AKBul79lH130SdtUMiWVew=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2253,10 +1362,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NativeUIUnitySettings.html",
-          "hash": "KnV8qICaUbELWlLVvyttqA=="
+          "hash": "v48gvwcjB4jxysozBYUBbA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2265,70 +1374,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NetworkServices.html",
-          "hash": "ub9Wit6MK/OCdN81oTuRxQ=="
+          "hash": "8AnJnAiJvehi8IxSIPDd8A=="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesCore.HostReachabilityChangeInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesCore.HostReachabilityChangeInternalCallback.html",
-          "hash": "bm+k6jqZZ123lulwVYuXbQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesCore.INativeNetworkServicesInterface.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesCore.INativeNetworkServicesInterface.html",
-          "hash": "K+u2mFGckgQAYA0rZgX7Cg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesCore.InternetConnectivityChangeInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesCore.InternetConnectivityChangeInternalCallback.html",
-          "hash": "QV2gUeIheEDdXfNhVcdKsA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesCore.NativeNetworkServicesInterfaceBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesCore.NativeNetworkServicesInterfaceBase.html",
-          "hash": "Lj4ZvOOYtsBIJUFQSSCbpQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesCore.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesCore.html",
-          "hash": "EFmbIkzbL+PXbWh3EH3CkQ=="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2337,10 +1386,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesHostReachabilityStatusChangeResult.html",
-          "hash": "WFjO57GOaKUVopyFs9dpzg=="
+          "hash": "7OaMFcVIo85j+OOzBZBgdQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2349,10 +1398,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesInternetConnectivityStatusChangeResult.html",
-          "hash": "Zt2v2oVkABWsu7B2VqT6gg=="
+          "hash": "wqJi1UuZHzlRb2qQM22UKw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2361,10 +1410,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesUnitySettings.Address.html",
-          "hash": "DPwTdCCAdseDDg+ksxuEYQ=="
+          "hash": "MEMIjfYm/PJxBJEPvfcO4Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2373,10 +1422,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesUnitySettings.PingTestSettings.html",
-          "hash": "7iTNE+1O5BDgq1qBJ1mT6A=="
+          "hash": "tUwsbaPOKys3UuA/0bsZEA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2385,10 +1434,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NetworkServicesUnitySettings.html",
-          "hash": "IQh8bj6/RnB1Vj6cJJNKYg=="
+          "hash": "NUjUF/YrpG/o8uhzHAizfg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2397,10 +1446,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NotificationAlertStyle.html",
-          "hash": "zcAv/QYUg1WgqtMjdsPwzg=="
+          "hash": "Iu3DRo0Ag/O2dkHopmVbmg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2409,10 +1458,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NotificationAndroidProperties.html",
-          "hash": "UjMr5/ZAJtEN5kdVC5RGkA=="
+          "hash": "xKu/L8nIcJIJVu59dl+QmQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2421,10 +1470,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NotificationBuilder.html",
-          "hash": "VHOFsONv6Skve7uJE6t8uQ=="
+          "hash": "sgVEWZUy4zporGCRYXJUXQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2433,10 +1482,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NotificationIosProperties.html",
-          "hash": "jWOb9pcTI7q6wj1O+amgfQ=="
+          "hash": "6S/257i0dBKoGc6qQQvyug=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2445,10 +1494,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NotificationPermissionOptions.html",
-          "hash": "1KgkDwTquYhHEE+YaeYpYA=="
+          "hash": "5EymwraOE5rWMI8iKflrng=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2457,10 +1506,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NotificationPermissionStatus.html",
-          "hash": "LBn/etRgldNEFX1KK5xgtw=="
+          "hash": "u8m4/AmNJyXJP8+B2/BX6w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2469,10 +1518,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NotificationPresentationOptions.html",
-          "hash": "DZ1fxBfoVaupoEB55V32YA=="
+          "hash": "CN5xPgv+QA4vahK28/GQzg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2481,10 +1530,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NotificationPreviewStyle.html",
-          "hash": "qajIIwB+aVPRuqvuRZQQ0g=="
+          "hash": "9lUQETDktgvtv0ag/VOBJw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2493,142 +1542,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NotificationServices.html",
-          "hash": "5D65F+9dgeMvvb8Z6RG+5g=="
+          "hash": "JbsACwQzD0sp1pw0lJuzzA=="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.GetNotificationsInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.GetNotificationsInternalCallback.html",
-          "hash": "JOdEfK/J9wZ5bqnFs0MNLA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.GetSettingsInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.GetSettingsInternalCallback.html",
-          "hash": "+BwuKMfOJQzeZN+/uVNjuA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.IMutableNotification.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.IMutableNotification.html",
-          "hash": "2FIRbVMwCHNXaeg8o3bFAA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.INativeNotificationCenterInterface.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.INativeNotificationCenterInterface.html",
-          "hash": "YmnaIF0d5651cfL2N4/sgw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.NativeNotificationCenterInterfaceBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.NativeNotificationCenterInterfaceBase.html",
-          "hash": "H2D0qGT3dbJbE/G/fxCIcQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.NotificationBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.NotificationBase.html",
-          "hash": "xsnZoqA99m8++U7sX9be0g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.NotificationReceivedInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.NotificationReceivedInternalCallback.html",
-          "hash": "y94KOVbUDat8ekkvqxVdXw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.RegisterForPushNotificationsInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.RegisterForPushNotificationsInternalCallback.html",
-          "hash": "eM+gIjT+Ox7uCHz1YhprFw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.RequestPermissionInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.RequestPermissionInternalCallback.html",
-          "hash": "YkMfH3FfXpbfQZHuF4bSgw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.ScheduleNotificationInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.ScheduleNotificationInternalCallback.html",
-          "hash": "AibYfxFXTVJ+OU6rRsdeUQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesCore.html",
-          "hash": "B4pi6pk2EUugQiJz/m3chg=="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2637,10 +1554,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesGetDeliveredNotificationsResult.html",
-          "hash": "2Y1EtexXzDtGdeu//IGFIw=="
+          "hash": "zUBAurTdAcKHa+Pbe/uJug=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2649,10 +1566,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesGetScheduledNotificationsResult.html",
-          "hash": "rVdeYif5u11J5so5zK/8pg=="
+          "hash": "J8jXcR6flqXgvh4TTe0vjQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2661,10 +1578,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesGetSettingsResult.html",
-          "hash": "oUizAcQmh33qGeK9Dd0CqQ=="
+          "hash": "ltp+ypusACOjzodpoNolsg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2673,10 +1590,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesNotificationReceivedResult.html",
-          "hash": "JPQyua/tJJjI44aV2G5rzQ=="
+          "hash": "SnOKHuSY5p1JGd67q1oPGg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2685,10 +1602,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesRegisterForPushNotificationsResult.html",
-          "hash": "KRbthYa+/3r1Dym9HLUhnA=="
+          "hash": "k2hOH6L+mDLrUQd6hZqmZw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2697,10 +1614,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesRequestPermissionResult.html",
-          "hash": "3N+wyHDpdcfstVDdnZR74A=="
+          "hash": "C6bHnPQ3df7qVT28ho44VQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2709,10 +1626,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.Keys.html",
-          "hash": "Ck1PedVq8kOKLZqGh2OShw=="
+          "hash": "vEuoqBusUX54FZsC5GZedw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2721,10 +1638,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.html",
-          "hash": "zuySYwERtk6f5XHEXzclWg=="
+          "hash": "e3VECaUBAX1chaq+V1b+zQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2733,10 +1650,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NotificationServicesUnitySettings.html",
-          "hash": "bg0TQfcf5uMUTv2pPQhFnA=="
+          "hash": "oSOO7ZDanvugRypisBnB0w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2745,10 +1662,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NotificationSettingStatus.html",
-          "hash": "E4WcMWz1pDIJ/POCYnZnsQ=="
+          "hash": "YmSYHetRNPvfktzw3szFgg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2757,10 +1674,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NotificationSettings.html",
-          "hash": "HSQlQ24Bs4weUDtILmln6w=="
+          "hash": "egwH/qDr1InimUu6EB7D+g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2769,10 +1686,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NotificationSettingsInternal.html",
-          "hash": "E0z3cGNREkETxunG0KGtnA=="
+          "hash": "piDksInc8QaA6glg6O8mRw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2781,10 +1698,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.NotificationTriggerType.html",
-          "hash": "qvf5EFKXdCGG+V89v8XIMQ=="
+          "hash": "FS9hyPy1vew97OLAGimDxA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2793,10 +1710,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.ProductResources.html",
-          "hash": "NKM2ggkIDJ2YgocUngQlyQ=="
+          "hash": "nJZcFBLqYNBkkIXwfQCGsA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2805,10 +1722,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.PushNotificationServiceType.html",
-          "hash": "U18TlEOnsnbC9elsK4hpCA=="
+          "hash": "82Yxx1oHuAzDAOWfVAFEiA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2817,10 +1734,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.PushNotificationTrigger.html",
-          "hash": "nelJcvK8oWFL/S4wxtUJtg=="
+          "hash": "xILCqB+pSQ5j5BCVdj0ErA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2829,10 +1746,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.RateMyApp.html",
-          "hash": "w72DWgoZDq6mZBQuHTmDKQ=="
+          "hash": "gtK8l8zRLPWAzv/xL8n7dQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2841,10 +1758,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.RateMyAppConfirmationDialogSettings.html",
-          "hash": "0Jqc9xxbtLknW/F5CUGC+A=="
+          "hash": "rshYS38k/KxGjkSx8JzG8Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2853,10 +1770,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.RateMyAppDefaultController.html",
-          "hash": "DslkO7CO3GCsIJBXKK2Dog=="
+          "hash": "A5FmW6bTJcfqtnKqBxZZ3w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2865,10 +1782,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.RateMyAppDefaultControllerSettings.PromptConstraints.html",
-          "hash": "kUF2OD3IDpeB4Qi6Z8rPWA=="
+          "hash": "bz0ag3EPCwiVMVot1pRMkA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2877,10 +1794,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.RateMyAppDefaultControllerSettings.html",
-          "hash": "ge0xrcwdS+UjRE1e+DGcYw=="
+          "hash": "eHA6oO3/YGogmDHE7g+bZA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2889,10 +1806,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.RateMyAppSettings.html",
-          "hash": "PhbJPoM3Hbxslfqka1DVcA=="
+          "hash": "X5rPGsDu4gYoeaTuLUDGdg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2901,10 +1818,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.ShareItem.ShareItemType.html",
-          "hash": "5EtrgTjZru/urAIauiPIZA=="
+          "hash": "pWf1k2g1D66OBYgUGdsdqA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2913,10 +1830,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.ShareItem.html",
-          "hash": "VXZbiskUYX/e2yC8Qu9jOg=="
+          "hash": "fapmL1fa1sM+tIvhC4IFtQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2925,10 +1842,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.ShareSheet.html",
-          "hash": "JhkhzRg2oGHn89Sflbm5cA=="
+          "hash": "wrVV2Re0tu0jR7i4YyaEmg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2937,10 +1854,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.ShareSheetResult.html",
-          "hash": "J7X7trA9hL0ijw22Rmv1GA=="
+          "hash": "37z0lAIZsR18pTmRCfJ+Zg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2949,10 +1866,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.ShareSheetResultCode.html",
-          "hash": "hdQWysU5qhWpDHM0liYFoA=="
+          "hash": "hA4EXtyHOQGirSJMDNMLSA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2961,250 +1878,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.SharingServices.html",
-          "hash": "ZcwjUBmny7Qnb4kKZHDSMg=="
+          "hash": "s0ltvTnMOVit4/+DG03kVw=="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.INativeMailComposer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.INativeMailComposer.html",
-          "hash": "j8F8mlOMZ+3idf8NUiThLw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.INativeMessageComposer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.INativeMessageComposer.html",
-          "hash": "sQrJlgy3SzmWlG2TfCYD8A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.INativeShareSheet.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.INativeShareSheet.html",
-          "hash": "zt1bBslFUelNiYcHdV97kA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.INativeSharingInterface.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.INativeSharingInterface.html",
-          "hash": "y2APfuyfp8oviNhiamR5rg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.INativeSocialShareComposer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.INativeSocialShareComposer.html",
-          "hash": "L+jf5lhxULhOqDdfFAiaMw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.MailComposerClosedInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.MailComposerClosedInternalCallback.html",
-          "hash": "eyW7+ny+/mWKYeDOIAGdsQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.MessageComposerClosedInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.MessageComposerClosedInternalCallback.html",
-          "hash": "TamLra3cH121wUxfZnlHJA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NativeMailComposerBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NativeMailComposerBase.html",
-          "hash": "t6ZI/Y4Q2UdnCXuogpmvzA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NativeMessageComposerBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NativeMessageComposerBase.html",
-          "hash": "+xdZ4xBxnWtbeW+u+78hNA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NativeShareSheetBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NativeShareSheetBase.html",
-          "hash": "mOKkPGPWFm1mnkSc+dia6Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NativeSharingInterfaceBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NativeSharingInterfaceBase.html",
-          "hash": "5MNvGFpysjJ9s5qfbt80Ww=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NativeSocialShareComposerBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NativeSocialShareComposerBase.html",
-          "hash": "grTlbKDw9ZFNLyKm4HJCBA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NullMailComposer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NullMailComposer.html",
-          "hash": "QGk+9rcAHna/xYEO2oVhFg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NullMessageComposer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NullMessageComposer.html",
-          "hash": "+SZsjIl+nbZqL3+VIQuUjw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NullShareSheet.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NullShareSheet.html",
-          "hash": "Hwa55kUNN2qZkWEyNekaVA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NullSharingInterface.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NullSharingInterface.html",
-          "hash": "v6niDNWBbaklFy1hbbpjkg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NullSocialShareComposer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.NullSocialShareComposer.html",
-          "hash": "rm6A2APfBBpbiYQk8DMNmw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.ShareSheetClosedInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.ShareSheetClosedInternalCallback.html",
-          "hash": "ZxZBfIzqca9jKpa3ggPotw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.SocialShareComposerClosedInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.SocialShareComposerClosedInternalCallback.html",
-          "hash": "++nRJ5d1EDb9DYBu2+I2Uw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesCore.html",
-          "hash": "AKpMO+r3kmDwlDOQzgUPUg=="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3213,10 +1890,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.SharingServicesUnitySettings.html",
-          "hash": "SOOulAWihqTuWOPhhp75Kg=="
+          "hash": "dnwaz7dPo7B+7zQmF+/PjA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3225,10 +1902,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.SocialShareComposer.html",
-          "hash": "/LdVkH51xyseh02vH0c9BA=="
+          "hash": "1q9PI5yHO7Gl1zwROBD6lQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3237,10 +1914,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.SocialShareComposerResult.html",
-          "hash": "VpE6okcT8ItH5OJZKUOnjA=="
+          "hash": "H1WdwKdbcuC1XWn4sGi/bA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3249,10 +1926,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.SocialShareComposerResultCode.html",
-          "hash": "rQdxSXJP9Fna91BZRFUzDw=="
+          "hash": "3q409MFEHMcHzhUaR5es3w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3261,10 +1938,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.SocialShareComposerType.html",
-          "hash": "Vp42P2E3gpfai+6t8w183g=="
+          "hash": "CsrAPxdkm7bRIRdlefg3Ng=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3273,10 +1950,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.TimeIntervalNotificationTrigger.html",
-          "hash": "RGFQSG3k8ubXYTIb2GMojA=="
+          "hash": "oH+5wzA9qX6dSbVSSXLAHQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3285,10 +1962,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.Utilities.html",
-          "hash": "RO0EGSaMM1GCdYeJtHCEJg=="
+          "hash": "11kzEZ/ijcqnfI4Cp47Hdg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3297,82 +1974,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.WebView.html",
-          "hash": "Rg9nZIS43uR64/WZ/hanpw=="
+          "hash": "oTzdQUF75NzYZOH/xPFTHQ=="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.WebViewCore.INativeWebView.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.WebViewCore.INativeWebView.html",
-          "hash": "iOiYgHvOonsAT5c0vB8Dcw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.WebViewCore.NativeWebViewBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.WebViewCore.NativeWebViewBase.html",
-          "hash": "N04G+Mqie0IL51pfTpr0XQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.WebViewCore.RunJavaScriptInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.WebViewCore.RunJavaScriptInternalCallback.html",
-          "hash": "5aK62vDxqgp5/ZBlmtJsLA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.WebViewCore.URLSchemeMatchFoundInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.WebViewCore.URLSchemeMatchFoundInternalCallback.html",
-          "hash": "54YkNEgi+fJoj944I/JhJQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.WebViewCore.WebViewInternalCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.WebViewCore.WebViewInternalCallback.html",
-          "hash": "v++sLeS6mknFW/pkBg2jgA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/VoxelBusters.EssentialKit.WebViewCore.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VoxelBusters.EssentialKit.WebViewCore.html",
-          "hash": "/NLv2jSbWEAzbTj489IIMQ=="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3381,10 +1986,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.WebViewExtensions.html",
-          "hash": "f8DkoqNfSDb661bsmskxdw=="
+          "hash": "mcxWDfTMj6/xCB0xoQjsLg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3393,10 +1998,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.WebViewRunJavaScriptResult.html",
-          "hash": "xIsRQIaElZbqedi6s5RyXg=="
+          "hash": "B6lR8LG9meZ7YXjQY4dE/Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3405,10 +2010,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.WebViewStyle.html",
-          "hash": "QnFCldbC+WeZyPkbD8WCIg=="
+          "hash": "U2vyT6hzb7SLFnSoszv7Rw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3417,10 +2022,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.WebViewUnitySettings.AndroidPlatformProperties.html",
-          "hash": "+HVCz5ynjCNR7qRxfX929w=="
+          "hash": "sd54+H8HgPL6kygzIcgJsw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3429,10 +2034,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.WebViewUnitySettings.html",
-          "hash": "QtBdGpNHcpJKbYRRdXaZMw=="
+          "hash": "xEBXClpZmsIXDCtsXX9JTQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3441,22 +2046,10 @@
       "output": {
         ".html": {
           "relative_path": "api/VoxelBusters.EssentialKit.html",
-          "hash": "yxIMRLu3xigEc2WT16F/VA=="
+          "hash": "WdtIFYrkGnSHrvQ5sIQ5rg=="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "api/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "api/index.html",
-          "hash": "ll6VXGwXfJOZ8kIdU8lkqg=="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3465,7 +2058,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "ov3rjDSYcsXf6Gf+0DnAmA=="
+          "hash": "VXopl6rRI8qLILGbRznoFw=="
         }
       },
       "is_incremental": false,
@@ -3477,10 +2070,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "vLRzfEG5J2XUFuYaLiYf7Q=="
+          "hash": "Uh1godtK0VyOm/qJxFwwcQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3501,10 +2094,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "yGZoQMg0xZtDPqXQ7x5VVg=="
+          "hash": "g6BwWmOvNZD8LViQAGmKTg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3523,29 +2116,30 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build"
       },
       "processors": {
-        "TocDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build"
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
         "incrementalPhase": "postProcessing"
       },
       "processors": {}
