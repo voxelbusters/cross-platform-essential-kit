@@ -105,7 +105,7 @@ using VoxelBusters.EssentialKit;
 
 public class ExampleClass : MonoBehaviour 
 {
-    public WebView m_webView;
+    private WebView m_webView;
 
     private void Start()
     {
@@ -114,7 +114,7 @@ public class ExampleClass : MonoBehaviour
         m_webView.SetFullScreen();
 
         // start request
-        m_webView.LoadRequest(&quot;http://www.google.com&quot;);
+        m_webView.LoadURL(URLString.URLWithPath(&quot;http://www.google.com&quot;));
     }
 
     private void OnEnable()
