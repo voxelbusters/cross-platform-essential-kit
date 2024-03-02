@@ -32,9 +32,9 @@ Version 2.0 **dropped NPBinding interface** access and now you can directly use 
 
 ### 3. Changed from NPSettings to Essential Kit Settings
 
-V1 used to have all of its settings in the NPSettings asset object. Now this got renamed to [Essential Kit Settings ](../overview/settings.md#essential-kit-settings)and is moved to **Assets/Plugins/VoxelBusters/EssentialKit/Resources** folder.
+V1 used to have all of its settings in the NPSettings asset object. Now this got renamed to [Essential Kit Settings ](../../overview/settings.md#essential-kit-settings)and is moved to **Assets/Plugins/VoxelBusters/EssentialKit/Resources** folder.
 
-![](../.gitbook/assets/OpenEssentialKitSettings.gif)
+![](../../.gitbook/assets/OpenEssentialKitSettings.gif)
 
 ### 4. All callbacks follow a standard format
 
@@ -62,7 +62,7 @@ If you have any custom images (for ex: Large Icon image used for notifications),
 
 ### 6. Better Folder Structure and .asmdef support
 
-[Folder structure](../overview/folder-structure.md) of the plugin got changed a lot from v1 and its more cleaner now. All the plugin files will be in Assets/Plugins/VoxelBusters/EssentialKit now compared to earlier version where it was too much distributed.
+[Folder structure](../../overview/folder-structure.md) of the plugin got changed a lot from v1 and its more cleaner now. All the plugin files will be in Assets/Plugins/VoxelBusters/EssentialKit now compared to earlier version where it was too much distributed.
 
 {% hint style="success" %}
 **Now, complete plugin is .asdmdef compatible!** :men\_with\_bunny\_ears\_partying: :men\_with\_bunny\_ears\_partying: :men\_with\_bunny\_ears\_partying:&#x20;
