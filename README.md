@@ -44,11 +44,17 @@ Plugin supports mobile platforms iOS (v10.0+) and Android (API 14+).
 • Plugin doesn't include Facebook SDK.\
 • Works with Unity Cloud Build.\
 \
-**You might be interested in our other products**\
+**You might be interested in our other products**
+
+[Cross Platform Ads Kit](https://u3d.as/37du) - No Code Required (New)\
 [Cross Platform **Easy Save**](http://u3d.as/1juJ)\
 [Cross Platform **Screen Recorder Kit**](http://u3d.as/1nN3)\
 [Cross Platform **Snapchat Kit**](http://u3d.as/1gWc)\
-[Cross Platform **Story Kit(Instagram)**](http://u3d.as/1pMn)\
+[Cross Platform **Story Kit(Instagram)**](http://u3d.as/1pMn)
+
+
+
+**If you are looking for our Ads Kit, download from** [**here**](https://u3d.as/37du)**.**\
 \
 \
 We love to hear from you! Contact us, share your feedback, suggestions to our [team](https://discord.gg/UEx8ahQ).
