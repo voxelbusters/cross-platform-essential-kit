@@ -6,15 +6,15 @@ Plugin comes with [**External Dependency Manager**](https://github.com/googlesam
 
 ![Folder Structure for Cross Platform Essential Kit](../.gitbook/assets/FolderStructure.png)
 
-| Folder Name                                 | Description                                                                                                                                       |
-| ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| External Dependency Manager                 | Folder where [**External Dependency Manager**](https://github.com/googlesamples/unity-jar-resolver) plugin exists.                                |
-| Plugins/VoxelBusters                        | Root folder for all Voxel Busters plugins                                                                                                         |
-| Plugins/VoxelBusters/EssentialKit           | Essential Kit plugin main folder                                                                                                                  |
-| Plugins/VoxelBusters/EssentialKit/Resources | Folder where the [Essential Kit Settings](settings.md#essential-kit-settings) are stored. Make sure you don't delete this folder while upgrading. |
+| Folder                                   | Description                                                                                                                                       |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Assets/External Dependency Manager       | Folder where [**External Dependency Manager**](https://github.com/googlesamples/unity-jar-resolver) plugin exists.                                |
+| Assets/Plugins/VoxelBusters              | Root folder for all Voxel Busters plugins                                                                                                         |
+| Assets/Plugins/VoxelBusters/EssentialKit | Essential Kit plugin main folder                                                                                                                  |
+| Assets/Resources                         | Folder where the [Essential Kit Settings](settings.md#essential-kit-settings) are stored. Make sure you don't delete this folder while upgrading. |
 
 {% hint style="success" %}
-When you are trying to upgrade the plugin, make sure your Essential Kit Settings under **Plugins/VoxelBusters/EssentialKit/Resources** is committed to version control or have a backup.
+When you are trying to upgrade the plugin, make sure your Essential Kit Settings asset under **Assets/Resources** is committed to version control or have a backup.
 {% endhint %}
 
 {% hint style="success" %}
