@@ -4,8 +4,6 @@ All Voxel Busters Plugins will be inside Assets/Plugins/VoxelBusters folder. Ess
 
 Plugin comes with [**External Dependency Manager**](https://github.com/googlesamples/unity-jar-resolver) which is a plugin maintained by Google. This plugin minimises the conflicts with external plugins. As of now we use this for resolving android libraries.
 
-![Folder Structure for Cross Platform Essential Kit](../.gitbook/assets/FolderStructure.png)
-
 | Folder                                   | Description                                                                                                                                       |
 | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Assets/External Dependency Manager       | Folder where [**External Dependency Manager**](https://github.com/googlesamples/unity-jar-resolver) plugin exists.                                |
