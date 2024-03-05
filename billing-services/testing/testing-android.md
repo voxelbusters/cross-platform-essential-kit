@@ -32,8 +32,7 @@ To set up [application licensing](https://developer.android.com/google/play/lice
 
 1. Go to your [Play Console](https://play.google.com/apps/publish/).
 2. Select **Settings** ![Settings](https://lh3.googleusercontent.com/LbrnIYuBnOItKk1RnKCGUR17KLyNnRZd8yn9ZxXbeBhPSy65EoHWyD1R\_ilR9uaFYOA=w18) > **Monetisation > License Testing.**
-3. Under "License Testing," add your testers' Gmail addresses.
-4. At the top of the screen, select **Save**.
+3. Under "License Testing," add your testers' Gmail addresses by creating a new email list or add ot an existing one and save.
 
 Using license testers provide the following benefits:
 
