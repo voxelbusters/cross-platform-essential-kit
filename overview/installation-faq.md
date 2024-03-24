@@ -6,12 +6,11 @@
 
 The plugin depends on Newtonsoft's json plugin which needs to be added to your packages.
 
-Add the following dependencies in YOUR\_PROJECT\_ROOT/Packages/manifest.json under dependencies block.
+Add the following dependencies in YOUR\_PROJECT\_ROOT/Packages/manifest.json under dependencies block
 
-> <mark style="background-color:purple;">`"com.unity.nuget.`</mark><mark style="background-color:purple;">**`newtonsoft`**</mark><mark style="background-color:purple;">`-json": "2.0.0"`</mark>
-
-\
-
+```json
+"com.unity.nuget.newtonsoft-json": "2.0.0"
+```
 
 ### I see this error when making Android build - "Failed to install the following Android SDK packages as some licences have not been accepted.". How to resolve this?
 
