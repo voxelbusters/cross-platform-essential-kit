@@ -390,9 +390,9 @@ There are multiple ways to report a score
 ```csharp
 long        score       = 57;
 string      leaderboardId = "leaderboardId";// Value from setup done in inspector
-GameServices.ReportScore(leaderboardId, score, (error) =>
+GameServices.ReportScore(leaderboardId, score, (success, error) =>
 {
-    if (error == null)
+    if (success)
     {
         Debug.Log("Request to submit score finished successfully.");
     }
@@ -409,9 +409,9 @@ GameServices.ReportScore(leaderboardId, score, (error) =>
 ```csharp
 long        score       = 57;
 ILeaderboard      leaderboardInstance;// This you can get from either LoadLeaderboards or CreateLeaderboard
-GameServices.ReportScore(leaderboardInstance, score, (error) =>
+GameServices.ReportScore(leaderboardInstance, score, (success, error) =>
 {
-    if (error == null)
+    if (success)
     {
         Debug.Log("Request to submit score finished successfully.");
     }
@@ -430,9 +430,9 @@ GameServices.ReportScore(leaderboardInstance, score, (error) =>
 long        score       = 57;
 string      leaderboardId = "leaderboardId";// Value from setup done in inspector
 IScore      scoreInstance = GameServices.CreateScore(leaderboardId);
-scoreInstance.ReportScore((error) =>
+scoreInstance.ReportScore((success, error) =>
 {
-    if (error == null)
+    if (success)
     {
         Debug.Log("Request to submit score finished successfully.");
     }
