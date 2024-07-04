@@ -1,4 +1,4 @@
-# Version 2.7.1
+# 🆕 Version 2.7.2
 
 #### Upgrade Process
 
@@ -16,13 +16,15 @@
 
 #### Changes
 
-* Fixed export of native libraries when few are disabled
-* Fixed DebugLogger to respect the settings in Application settings
-* \[iOS] Fixed compilation issues when all features are disabled
-* \[iOS] Fixed export of xcode project when saved with in Assets folder
-* \[Android] Fixed link.xml to support medium level stripping
-
-
+* Fixed date time serialisation in rate my app feature
+* Fixed initialisation of un-used features
+* Fixed launch notification for Deep Link Services
+* Back-ported Calendar notification trigger from V3
+* Updated CoreLibrary to be in sync with other plugins
+* Updated External Dependency Manager to 1.2.180
+* \[Android] Upgraded Billing Client version to 6.2.1
+* \[Android] Fixed deprecated androidx fragment indirect dependencies
+* \[Android] Updated google play services libraries (v1) to latest
 
 
 
