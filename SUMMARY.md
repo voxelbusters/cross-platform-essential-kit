@@ -9,7 +9,7 @@
 * [🆕 Version 2.7.3](release-notes/version-2.7.3.md)
 * [Version 2.7.2](release-notes/version-2.7.2.md)
 * [Version 2.7.1](release-notes/version-2.7.1.md)
-* [✅ Version 2.7.0](release-notes/version-2.7.0.md)
+* [Version 2.7.0](release-notes/version-2.7.0.md)
 * [Older Versions](release-notes/older-versions/README.md)
   * [Version 2.6.1](release-notes/older-versions/version-2.6.1.md)
   * [Version 2.6.0](release-notes/older-versions/version-2.6.0.md)
