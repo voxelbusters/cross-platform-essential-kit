@@ -1,4 +1,4 @@
-# 🆕 Version 2.7.3
+# ✅ Version 2.7.3
 
 #### Upgrade Process
 
@@ -19,6 +19,7 @@
 * \[Android] Fixed crash in Billing Services for delayed transaction action
 * \[iOS] Fixed Facebook and Twitter share sheet presentation
 * \[iOS] Updated Game Services server credentials to use latest game center api
+* \[iOS] TeamPlayerID is now returned for LocalPlayer.Id in Game Services. If you need old playerId, please contact our support team for assistance. Also, in V3, we provide api for three different id's including lecacy id.
 
 
 
