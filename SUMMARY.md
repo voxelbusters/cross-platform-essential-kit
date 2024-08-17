@@ -6,6 +6,7 @@
 
 ## Release Notes
 
+* [✅ Version 2.7.4](release-notes/version-2.7.4.md)
 * [✅ Version 2.7.3](release-notes/version-2.7.3.md)
 * [Version 2.7.2](release-notes/version-2.7.2.md)
 * [Version 2.7.1](release-notes/version-2.7.1.md)
