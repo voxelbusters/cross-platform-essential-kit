@@ -1,4 +1,4 @@
-# ✅ Version 2.7.3
+# Version 2.7.3
 
 #### Upgrade Process
 
