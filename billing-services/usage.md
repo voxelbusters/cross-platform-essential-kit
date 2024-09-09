@@ -175,7 +175,7 @@ private void OnRestorePurchasesComplete(BillingServicesRestorePurchasesResult re
         for (int iter = 0; iter < transactions.Length; iter++)
         {
             var     transaction = transactions[iter];
-            Log(string.Format("[{0}]: {1}", iter, transaction.Payment.ProductId));
+            Debug.Log(string.Format("[{0}]: {1}", iter, transaction.Payment.ProductId));
         }
     }
     else
